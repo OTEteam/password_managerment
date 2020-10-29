@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Password_Manager
 {
-    public partial class Form1 : Form
+    public partial class frmManagement : Form
     {
-        public Form1()
+        public frmManagement()
         {
             //splitContainer1.Size(450, 500);
             InitializeComponent();

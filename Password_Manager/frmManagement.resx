@@ -171,7 +171,7 @@
         5aMYRH1NAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnImport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
         3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAF4SURBVFhH7Zex
@@ -182,19 +182,6 @@
         QKgXYs4ET0chAaTMRcQu9AoXyTHkSXsOHtHCAoYyVzG/TPZA/tXMwXuitABS5mX0K6G+UonRTAL/AbWm
         NvZYGCenqcB4ngKZddmdXuWRugeuFyJg0wg0Ao3A8gnMC7exYQkEMj7LKwV6UM2RzD8mlQG1sQfVHCGD
         dUIG60Ozb/dJBYeff0mBAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="btnExport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGMSURBVFhH7Ze/
-        TsMwEMYtGJGQmGBCScoITwAPwMbOVPUNECMqYm8nIDErgokBiZ2RhRdgYoABwYJUxUFiM+ckltzLETtp
-        Ghgy/Jbz3fd9lf+0ZVLKP4UstglZbAI/FNd+JB56XGxS6xqy2ARgLnO+Ah4PqB4FGxyNd/rH48f+cCTL
-        wIM2jAA58eXq6GMJ9zEXcwUetFEMkPKEt4RRZhTmkGLj9HPZC5Ndn4shCN8Bb4ZRGVNbUiuAdx7vgdA7
-        Eq5ItiWFAKYRZj2arMDgFS1YAy7unQNk5uK1IDILVQI0+slTKmxBvueESC3KD6Fe0KjTDkOFA+dF4jkI
-        k4Mej7fhNqzhOdyfY7+G5qIivWrTInEQJfvsRC7gXhM0A/z2EFkC5Pdci7wEZ8kW7qEwzMufYmuA7JFR
-        Qt+u5grnLyOHANkLx5NDvNYE1gBBKC6AW3YjF/FaE1gD1AW0JiZUj2KeAZx0uwBdgC5AoXFeYGPNPwjg
-        +LN8JsCDMlc4/zGpDWgrD8pcQRbbhCy2h2Q/mT4A18RK9BgAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="btnGuideline.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -265,6 +252,18 @@
         AdyeueNbiWFfAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="Website.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Username.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Password.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Show.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

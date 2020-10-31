@@ -11,6 +11,6 @@ namespace Data_Access_Object
 {
     public class DBConnect
     {
-        protected SqlConnection conn = new SqlConnection("server=DESKTOP-LVLR7JR;database=BookStore;uid=sa;pwd=123456789");
+        protected SqlConnection conn = new SqlConnection("server=CAROKANN;database=password_manager_db;uid=tester;pwd=123456789");
     }
 }

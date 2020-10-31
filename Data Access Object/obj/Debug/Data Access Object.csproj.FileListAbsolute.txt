@@ -7,3 +7,12 @@ E:\Project\C#\password_managerment\Data Access Object\obj\Debug\Data Access Obje
 E:\Project\C#\password_managerment\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
 E:\Project\C#\password_managerment\Data Access Object\obj\Debug\Data Access Object.dll
 E:\Project\C#\password_managerment\Data Access Object\obj\Debug\Data Access Object.pdb
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\bin\Debug\Data Access Object.dll
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\bin\Debug\Data Access Object.pdb
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\bin\Debug\Data Transfer Object.dll
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\bin\Debug\Data Transfer Object.pdb
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\obj\Debug\Data Access Object.csprojAssemblyReference.cache
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\obj\Debug\Data Access Object.csproj.CoreCompileInputs.cache
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\obj\Debug\Data Access Object.dll
+C:\Users\nhoxp\source\repos\Password_Manager\Data Access Object\obj\Debug\Data Access Object.pdb

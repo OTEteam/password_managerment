@@ -4,3 +4,9 @@ E:\Project\C#\password_managerment\Data Transfer Object\obj\Debug\Data Transfer 
 E:\Project\C#\password_managerment\Data Transfer Object\obj\Debug\Data Transfer Object.csproj.CoreCompileInputs.cache
 E:\Project\C#\password_managerment\Data Transfer Object\obj\Debug\Data Transfer Object.dll
 E:\Project\C#\password_managerment\Data Transfer Object\obj\Debug\Data Transfer Object.pdb
+C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\bin\Debug\Data Transfer Object.dll
+C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\bin\Debug\Data Transfer Object.pdb
+C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data Transfer Object.csprojAssemblyReference.cache
+C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data Transfer Object.csproj.CoreCompileInputs.cache
+C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data Transfer Object.dll
+C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data Transfer Object.pdb

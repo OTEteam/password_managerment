@@ -34,5 +34,17 @@ namespace Password_Manager
                 frm.Show();
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmResister frm = new frmResister();
+            frm.Show();
+        }
+
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

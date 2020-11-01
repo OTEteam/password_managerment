@@ -54,5 +54,19 @@ namespace Data_Access_Object
             return user;
         }
         //TODO: write code here
+
+        public void CreateUser(string Username, string Password, string Phone)
+        {
+            string SQL = "INSERT dbo.users\n" +
+                         "(usr_name, psw, phone, active)\n" +
+                         "VALUES (@Username, @Password, @Phone, 0)";
+            SqlCommand cmd = new SqlCommand(SQL, conn);
+            cmd.Parameters.AddWithValue("@Username", Username);
+            cmd.Parameters.AddWithValue("@Password", Password);
+            cmd.Parameters.AddWithValue("@Phone", Phone);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
     }
 }

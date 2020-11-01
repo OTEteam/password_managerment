@@ -32,5 +32,10 @@ namespace Password_Manager
             UserDTO user = UserDAO.Instance.CheckLogin(Username, Password);
             return user;
         }
+
+        public void CreateUser(string Username, string Password, string Phone)
+        {
+            UserDAO.Instance.CreateUser(Username, Password, Phone);
+        }
     }
 }

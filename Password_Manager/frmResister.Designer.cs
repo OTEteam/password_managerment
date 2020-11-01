@@ -140,7 +140,7 @@
             // button1
             // 
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(312, 356);
+            this.button1.Location = new System.Drawing.Point(312, 358);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 41);
             this.button1.TabIndex = 10;
@@ -171,7 +171,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmResister";
             this.Text = "frmResister";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmResister_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.provider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

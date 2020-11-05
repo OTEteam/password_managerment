@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,11 +24,20 @@ namespace Data_Access_Object
         }
         private AccountDAO() { }
 
-        //public AccountDTO Access()
-        //{
-        //    AccountDTO dto = null;
-        //    return dto;
-        //}
-        //TODO: write code here
+        public void AddAccount(AccountDTO account)
+        {
+            string SQL = "INSERT dbo.accounts\n" +
+                         "(website, account, account_psw, note, usr_name)\n" +
+                         "VALUES (@Website, @Account, @Password, @Note, @Username)";
+            SqlCommand cmd = new SqlCommand(SQL, conn);
+            cmd.Parameters.AddWithValue("@Website", account.Website);
+            cmd.Parameters.AddWithValue("@Account", account.Website);
+            cmd.Parameters.AddWithValue("@Password", account.Account_psw);
+            cmd.Parameters.AddWithValue("@Note", account.Note);
+            cmd.Parameters.AddWithValue("@Username", account.Username);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
     }
 }

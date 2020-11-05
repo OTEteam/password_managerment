@@ -17,7 +17,8 @@ namespace Password_Manager
 
         private void btnNew_Click(object sender, EventArgs e)
         {
-            
+            frmAccount frmAccount = new frmAccount(user);
+            frmAccount.ShowDialog();
         }
 
         private void frmManagement_FormClosing(object sender, FormClosingEventArgs e)

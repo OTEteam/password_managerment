@@ -13,6 +13,13 @@ namespace Password_Manager
 {
     public partial class frmResister : Form
     {
+        bool[] accept = {false, false, false, false};
+
+        private bool isAccept()
+        {
+            return accept[0] & accept[1] & accept[2] & accept[3];
+        }
+
         public frmResister()
         {
             InitializeComponent();
@@ -35,16 +42,23 @@ namespace Password_Manager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text;
-            string password = txtPassword.Text;
-            string phone = txtPhone.Text;
-            try
+            if (isAccept())
             {
-                FrmManagementLogic.Instance.CreateUser(username, password, phone);
+                string username = txtUsername.Text;
+                string password = txtPassword.Text;
+                string phone = txtPhone.Text;
+                try
+                {
+                    FrmManagementLogic.Instance.CreateUser(username, password, phone);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(this, "Tài khoản đã tồn tại", "Lỗi rồi");
+                }
             }
-            catch(Exception ex)
+            else
             {
-                MessageBox.Show("Tài khoản đã tồn tại", "Lỗi rồi");
+                MessageBox.Show(this, "Dữ liệu không hợp lệ", "Lỗi rồi");
             }
         }
 
@@ -53,21 +67,21 @@ namespace Password_Manager
             if (txtUsername.Text.Length == 0)
             {
                 provider.SetError(txtUsername, "Vui lòng nhập username");
-                e.Cancel = true;
+                accept[0] = false;
             }
             else if (txtUsername.Text.Length > 1000)
             {
                 provider.SetError(txtUsername, "username quá dài");
-                e.Cancel = true;
+                accept[0] = false;
             }
             else if (!Regex.IsMatch(txtUsername.Text, "^[a-zA-Z0-9]+$"))
             {
                 provider.SetError(txtUsername, "username không bao gồm khoảng trắng và ký tự đặc biệt");
-                e.Cancel = true;
+                accept[0] = false;
             }
             else
             {
-                e.Cancel = false;
+                accept[0] = true;
                 provider.Clear();
             }
         }
@@ -77,11 +91,11 @@ namespace Password_Manager
             if (txtPassword.Text.Length == 0)
             {
                 provider.SetError(txtPassword, "Mật khẩu không được trống");
-                e.Cancel = true;
+                accept[1] = false;
             }
             else
             {
-                e.Cancel = false;
+                accept[1] = true;
                 provider.Clear();
             }
         }
@@ -91,11 +105,11 @@ namespace Password_Manager
             if (txtPassword.Text != txtRePassword.Text)
             {
                 provider.SetError(txtRePassword, "Mật khẩu không khớp");
-                e.Cancel = true;
+                accept[2] = false;
             }
             else
             {
-                e.Cancel = false;
+                accept[2] = true;
                 provider.Clear();
             }
         }
@@ -105,16 +119,16 @@ namespace Password_Manager
             if (txtPhone.Text.Length == 0)
             {
                 provider.SetError(txtPhone, "Số điện thoại không được trống");
-                e.Cancel = true;
+                accept[3] = false;
             }
             else if (!Regex.IsMatch(txtPhone.Text, "^\\d+$") | txtPhone.Text.Length > 13)
             {
                 provider.SetError(txtPhone, "số điện thoại không hợp lệ");
-                e.Cancel = true;
+                accept[3] = false;
             }
             else
             {
-                e.Cancel = false;
+                accept[3] = true;
                 provider.Clear();
             }
         }

@@ -59,5 +59,10 @@ namespace Password_Manager
             Password = ComputeSha256Hash(Password);
             UserDAO.Instance.CreateUser(Username, Password, Phone);
         }
+
+        public void AddAccount(AccountDTO account)
+        {
+            AccountDAO.Instance.AddAccount(account);
+        }
     }
 }

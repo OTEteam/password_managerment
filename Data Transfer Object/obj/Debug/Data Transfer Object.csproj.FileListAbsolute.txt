@@ -10,3 +10,9 @@ C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data
 C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data Transfer Object.csproj.CoreCompileInputs.cache
 C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data Transfer Object.dll
 C:\Users\nhoxp\source\repos\Password_Manager\Data Transfer Object\obj\Debug\Data Transfer Object.pdb
+F:\Code\PRN292\Password_Project\password_managerment\Data Transfer Object\bin\Debug\Data Transfer Object.dll
+F:\Code\PRN292\Password_Project\password_managerment\Data Transfer Object\bin\Debug\Data Transfer Object.pdb
+F:\Code\PRN292\Password_Project\password_managerment\Data Transfer Object\obj\Debug\Data Transfer Object.csprojAssemblyReference.cache
+F:\Code\PRN292\Password_Project\password_managerment\Data Transfer Object\obj\Debug\Data Transfer Object.csproj.CoreCompileInputs.cache
+F:\Code\PRN292\Password_Project\password_managerment\Data Transfer Object\obj\Debug\Data Transfer Object.dll
+F:\Code\PRN292\Password_Project\password_managerment\Data Transfer Object\obj\Debug\Data Transfer Object.pdb

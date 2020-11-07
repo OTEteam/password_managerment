@@ -46,5 +46,11 @@ namespace Password_Manager
         {
             Application.Exit();
         }
+
+        private void linkForgotPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmOTP otp = new frmOTP();
+            otp.Show();
+        }
     }
 }

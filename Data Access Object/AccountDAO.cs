@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -39,34 +38,6 @@ namespace Data_Access_Object
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
-        }
-
-        public DataTable GetAccounts(string username)
-        {
-            string SQL = "SELECT a.id, a.website, a.account, a.account_psw, a.note\n" +
-                            "FROM dbo.accounts a\n" +
-                           "WHERE a.usr_name = @Username";
-            SqlCommand cmd = new SqlCommand(SQL, conn);
-            cmd.Parameters.AddWithValue("@Username", username);
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-            DataTable accounts = new DataTable();
-            try
-            {
-                if (conn.State == ConnectionState.Closed)
-                {
-                    conn.Open();
-                }
-                adapter.Fill(accounts);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-            finally
-            {
-                conn.Close();
-            }
-            return accounts;
         }
     }
 }

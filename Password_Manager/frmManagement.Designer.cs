@@ -38,13 +38,17 @@
             this.btnAbout = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.dsAccount = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Website = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Show = new System.Windows.Forms.DataGridViewButtonColumn();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dsAccount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -168,23 +172,57 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.splitContainer1.Panel2.Controls.Add(this.dsAccount);
+            this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
             this.splitContainer1.Size = new System.Drawing.Size(848, 542);
             this.splitContainer1.SplitterDistance = 230;
             this.splitContainer1.TabIndex = 1;
             // 
-            // dsAccount
+            // dataGridView1
             // 
-            this.dsAccount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dsAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dsAccount.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dsAccount.Location = new System.Drawing.Point(0, 0);
-            this.dsAccount.Name = "dsAccount";
-            this.dsAccount.RowHeadersWidth = 62;
-            this.dsAccount.RowTemplate.Height = 28;
-            this.dsAccount.Size = new System.Drawing.Size(614, 542);
-            this.dsAccount.TabIndex = 0;
-            this.dsAccount.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dsAccount_CellFormatting);
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Website,
+            this.Username,
+            this.Password,
+            this.Show});
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.Size = new System.Drawing.Size(614, 542);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // Website
+            // 
+            this.Website.FillWeight = 95.45454F;
+            this.Website.HeaderText = "Website";
+            this.Website.MinimumWidth = 8;
+            this.Website.Name = "Website";
+            // 
+            // Username
+            // 
+            this.Username.FillWeight = 95.45454F;
+            this.Username.HeaderText = "Username";
+            this.Username.MinimumWidth = 8;
+            this.Username.Name = "Username";
+            // 
+            // Password
+            // 
+            this.Password.FillWeight = 95.45454F;
+            this.Password.HeaderText = "Password";
+            this.Password.MinimumWidth = 8;
+            this.Password.Name = "Password";
+            // 
+            // Show
+            // 
+            this.Show.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Show.FillWeight = 113.6364F;
+            this.Show.HeaderText = "";
+            this.Show.MinimumWidth = 8;
+            this.Show.Name = "Show";
+            this.Show.Width = 30;
             // 
             // frmManagement
             // 
@@ -199,7 +237,7 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dsAccount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -215,7 +253,11 @@
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Button btn;
-        private System.Windows.Forms.DataGridView dsAccount;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Website;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Username;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Password;
+        private System.Windows.Forms.DataGridViewButtonColumn Show;
     }
 }
 

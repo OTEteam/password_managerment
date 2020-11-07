@@ -29,14 +29,6 @@ namespace Password_Manager
             }
         }
 
-        public UserDAO UserDAO
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         private FrmManagementLogic() { }
 
         public UserDTO CheckLogin(string Username, string Password)
@@ -60,6 +52,7 @@ namespace Password_Manager
         public DataTable GetAccounts(UserDTO user)
         {
             DataTable accounts =  AccountDAO.Instance.GetAccounts(user.Username);
+            
             // On all tables' rows
             foreach (DataRow dtRow in accounts.Rows)
             {
@@ -72,7 +65,6 @@ namespace Password_Manager
                     }
                 }
             }
-            Console.WriteLine(accounts);
             return accounts;
         }
     }

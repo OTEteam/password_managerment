@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmManagement));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnSearch = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnNew = new System.Windows.Forms.Button();
             this.btn = new System.Windows.Forms.Button();
             this.btnGuideline = new System.Windows.Forms.Button();
@@ -39,6 +39,13 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dsAccount = new System.Windows.Forms.DataGridView();
+            this.Website = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Account = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ShowPsw = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.idHidden = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pswHidden = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -51,7 +58,7 @@
             // 
             this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Controls.Add(this.btnSearch);
+            this.flowLayoutPanel1.Controls.Add(this.txtSearch);
             this.flowLayoutPanel1.Controls.Add(this.btnNew);
             this.flowLayoutPanel1.Controls.Add(this.btn);
             this.flowLayoutPanel1.Controls.Add(this.btnGuideline);
@@ -65,24 +72,21 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(215, 539);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // btnSearch
+            // txtSearch
             // 
-            this.btnSearch.BackColor = System.Drawing.Color.Transparent;
-            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
-            this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSearch.Location = new System.Drawing.Point(3, 3);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(203, 50);
-            this.btnSearch.TabIndex = 1;
-            this.btnSearch.Text = "Search Password";
-            this.btnSearch.UseVisualStyleBackColor = false;
+            this.txtSearch.Location = new System.Drawing.Point(3, 10);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 10, 3, 30);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(203, 26);
+            this.txtSearch.TabIndex = 2;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // btnNew
             // 
             this.btnNew.BackColor = System.Drawing.Color.Transparent;
             this.btnNew.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.Image")));
             this.btnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNew.Location = new System.Drawing.Point(3, 59);
+            this.btnNew.Location = new System.Drawing.Point(3, 69);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(203, 50);
             this.btnNew.TabIndex = 1;
@@ -95,7 +99,7 @@
             this.btn.BackColor = System.Drawing.Color.Transparent;
             this.btn.Image = ((System.Drawing.Image)(resources.GetObject("btn.Image")));
             this.btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn.Location = new System.Drawing.Point(3, 115);
+            this.btn.Location = new System.Drawing.Point(3, 125);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(203, 50);
             this.btn.TabIndex = 1;
@@ -107,7 +111,7 @@
             this.btnGuideline.BackColor = System.Drawing.Color.Transparent;
             this.btnGuideline.Image = ((System.Drawing.Image)(resources.GetObject("btnGuideline.Image")));
             this.btnGuideline.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuideline.Location = new System.Drawing.Point(3, 171);
+            this.btnGuideline.Location = new System.Drawing.Point(3, 181);
             this.btnGuideline.Name = "btnGuideline";
             this.btnGuideline.Size = new System.Drawing.Size(203, 50);
             this.btnGuideline.TabIndex = 1;
@@ -119,7 +123,7 @@
             this.btnSetting.BackColor = System.Drawing.Color.Transparent;
             this.btnSetting.Image = ((System.Drawing.Image)(resources.GetObject("btnSetting.Image")));
             this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSetting.Location = new System.Drawing.Point(3, 227);
+            this.btnSetting.Location = new System.Drawing.Point(3, 237);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.Size = new System.Drawing.Size(203, 50);
             this.btnSetting.TabIndex = 1;
@@ -131,7 +135,7 @@
             this.btnAbout.BackColor = System.Drawing.Color.Transparent;
             this.btnAbout.Image = ((System.Drawing.Image)(resources.GetObject("btnAbout.Image")));
             this.btnAbout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAbout.Location = new System.Drawing.Point(3, 283);
+            this.btnAbout.Location = new System.Drawing.Point(3, 293);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(203, 50);
             this.btnAbout.TabIndex = 1;
@@ -143,7 +147,7 @@
             this.btnLogout.BackColor = System.Drawing.Color.Transparent;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogout.Location = new System.Drawing.Point(3, 339);
+            this.btnLogout.Location = new System.Drawing.Point(3, 349);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(203, 50);
             this.btnLogout.TabIndex = 1;
@@ -175,8 +179,17 @@
             // 
             // dsAccount
             // 
-            this.dsAccount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dsAccount.AllowUserToAddRows = false;
+            this.dsAccount.AllowUserToDeleteRows = false;
             this.dsAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dsAccount.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Website,
+            this.Account,
+            this.Password,
+            this.ShowPsw,
+            this.edit,
+            this.idHidden,
+            this.pswHidden});
             this.dsAccount.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dsAccount.Location = new System.Drawing.Point(0, 0);
             this.dsAccount.Name = "dsAccount";
@@ -184,7 +197,64 @@
             this.dsAccount.RowTemplate.Height = 28;
             this.dsAccount.Size = new System.Drawing.Size(614, 542);
             this.dsAccount.TabIndex = 0;
+            this.dsAccount.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dsAccount_CellContentClick);
             this.dsAccount.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dsAccount_CellFormatting);
+            // 
+            // Website
+            // 
+            this.Website.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Website.HeaderText = "Website";
+            this.Website.MinimumWidth = 8;
+            this.Website.Name = "Website";
+            this.Website.ReadOnly = true;
+            // 
+            // Account
+            // 
+            this.Account.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Account.HeaderText = "Account";
+            this.Account.MinimumWidth = 8;
+            this.Account.Name = "Account";
+            this.Account.ReadOnly = true;
+            // 
+            // Password
+            // 
+            this.Password.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Password.HeaderText = "Password";
+            this.Password.MinimumWidth = 8;
+            this.Password.Name = "Password";
+            this.Password.ReadOnly = true;
+            // 
+            // ShowPsw
+            // 
+            this.ShowPsw.HeaderText = "Show Password";
+            this.ShowPsw.MinimumWidth = 8;
+            this.ShowPsw.Name = "ShowPsw";
+            this.ShowPsw.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ShowPsw.Width = 150;
+            // 
+            // edit
+            // 
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.Width = 50;
+            // 
+            // idHidden
+            // 
+            this.idHidden.HeaderText = "id_visible";
+            this.idHidden.MinimumWidth = 8;
+            this.idHidden.Name = "idHidden";
+            this.idHidden.Visible = false;
+            this.idHidden.Width = 8;
+            // 
+            // pswHidden
+            // 
+            this.pswHidden.HeaderText = "psw_visible";
+            this.pswHidden.MinimumWidth = 8;
+            this.pswHidden.Name = "pswHidden";
+            this.pswHidden.Visible = false;
+            this.pswHidden.Width = 150;
             // 
             // frmManagement
             // 
@@ -195,6 +265,7 @@
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmManagement_FormClosing);
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
@@ -207,7 +278,6 @@
         #endregion
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Button btnGuideline;
         private System.Windows.Forms.Button btnSetting;
@@ -215,7 +285,15 @@
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Button btn;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.DataGridView dsAccount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Website;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Account;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Password;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn ShowPsw;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idHidden;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pswHidden;
     }
 }
 

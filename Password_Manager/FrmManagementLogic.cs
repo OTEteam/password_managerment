@@ -34,7 +34,10 @@ namespace Password_Manager
         public UserDTO CheckLogin(string Username, string Password)
         {
             UserDTO user = UserDAO.Instance.CheckLogin(Username, StringCipher.ComputeSha256Hash(Password));
-            user.Password = Password;
+            if (user != null)
+            {
+                user.Password = Password;
+            }
             return user;
         }
 
@@ -57,6 +60,11 @@ namespace Password_Manager
         public void UpdateAccount(AccountDTO account)
         {
             AccountDAO.Instance.UpdateAccount(account);
+        }
+
+        public void ChangePassword(string Username, string Password)
+        {
+            UserDAO.Instance.ChangePassword(Username, StringCipher.ComputeSha256Hash(Password));
         }
 
         public DataTable GetAccounts(UserDTO user)

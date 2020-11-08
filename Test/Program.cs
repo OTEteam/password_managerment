@@ -26,7 +26,7 @@ namespace Test
             Console.WriteLine("");
 
             Console.WriteLine("Your decrypted string is:");
-            string decryptedstring = StringCipher.Decrypt(encryptedstring, password);
+            string decryptedstring = StringCipher.Decrypt("e+jRaL4Zf5kqtzUfNvk1t+igUp6AssHNjopTEKe7l5b/+NV69vgg5c50gdn/Po0FtQQbwhtu57BIbw4LVRAnTGqNtyyHEKQmznvqTmPMg5ifz0FAnB/x+xV0iO3sVSWq", "1234");
             Console.WriteLine(decryptedstring);
             Console.WriteLine("");
 

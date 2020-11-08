@@ -68,5 +68,19 @@ namespace Data_Access_Object
             cmd.ExecuteNonQuery();
             conn.Close();
         }
+
+        public void ChangePassword(string Username, string Password)
+        {
+            string SQL = "UPDATE dbo.users\n"+
+                         "SET\n"+
+                         "dbo.users.psw = @Password --nvarchar\n"+
+                         "WHERE dbo.users.usr_name = @Username ";
+            SqlCommand cmd = new SqlCommand(SQL, conn);
+            cmd.Parameters.AddWithValue("@Username", Username);
+            cmd.Parameters.AddWithValue("@Password", Password);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
     }
 }

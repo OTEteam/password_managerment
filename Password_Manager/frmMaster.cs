@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Utils;
 
 namespace Password_Manager
 {
@@ -32,7 +33,19 @@ namespace Password_Manager
         {
             if (isAccept())
             {
-
+                string password = txtNewPsw.Text;
+                FrmManagementLogic.Instance.ChangePassword(user.Username, password);
+                foreach (DataRow row in dataTable.Rows)
+                {
+                    string website = StringCipher.Encrypt(row[1].ToString(), password);
+                    string acc = StringCipher.Encrypt(row[2].ToString(), password);
+                    string psw = StringCipher.Encrypt(row[3].ToString(), password);
+                    string note = StringCipher.Encrypt(row[4].ToString(), password);
+                    AccountDTO accountDTO = new AccountDTO(Convert.ToInt32(row[0]), website, acc, psw, note, user.Username);
+                    FrmManagementLogic.Instance.UpdateAccount(accountDTO);
+                }
+                Application.Restart();
+                Environment.Exit(0);
             }
         }
 

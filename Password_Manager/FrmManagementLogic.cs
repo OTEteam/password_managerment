@@ -49,6 +49,16 @@ namespace Password_Manager
             AccountDAO.Instance.AddAccount(account);
         }
 
+        public void DelAccount(AccountDTO account)
+        {
+            AccountDAO.Instance.DelAccount(account.Id);
+        }
+
+        public void UpdateAccount(AccountDTO account)
+        {
+            AccountDAO.Instance.UpdateAccount(account);
+        }
+
         public DataTable GetAccounts(UserDTO user)
         {
             DataTable accounts =  AccountDAO.Instance.GetAccounts(user.Username);

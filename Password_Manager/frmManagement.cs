@@ -23,6 +23,7 @@ namespace Password_Manager
         {
             frmAccount frmAccount = new frmAccount(user);
             frmAccount.ShowDialog();
+            loadAccount();
         }
 
         private void frmManagement_FormClosing(object sender, FormClosingEventArgs e)
@@ -38,6 +39,7 @@ namespace Password_Manager
             dsAccount.Columns[4].DataPropertyName = "id";
             dsAccount.Columns[5].DataPropertyName = "id";
             dsAccount.Columns[6].DataPropertyName = "account_psw";
+            dsAccount.Columns[7].DataPropertyName = "note";
             dsAccount.DataSource = dtAccounts;
         }
 
@@ -58,7 +60,6 @@ namespace Password_Manager
         {
             if (e.ColumnIndex == 4 && e.Value != null)
             {
-                dsAccount.Rows[e.RowIndex].Cells[2].Value = "****************";
                 e.Value = "Edit";
             }
         }
@@ -78,7 +79,26 @@ namespace Password_Manager
                     row.Cells[2].Value = "****************";
                 }
                 dsAccount.EndEdit();
+                dsAccount.CommitEdit(DataGridViewDataErrorContexts.Commit);
             }
+            else if (e.ColumnIndex == 4)
+            {
+                AccountDTO account = new AccountDTO(Convert.ToInt32(row.Cells[5].Value.ToString()),
+                                                    row.Cells[0].Value.ToString(),
+                                                    row.Cells[1].Value.ToString(),
+                                                    row.Cells[6].Value.ToString(),
+                                                    row.Cells[7].Value.ToString(),
+                                                    user.Username);
+                frmEdit frmEdit = new frmEdit(account, user);
+                frmEdit.ShowDialog();
+                loadAccount();
+            }
+        }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            frmMaster frmMaster = new frmMaster(dtAccounts, user);
+            frmMaster.ShowDialog();
         }
     }
 }

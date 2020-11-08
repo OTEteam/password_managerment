@@ -41,6 +41,36 @@ namespace Data_Access_Object
             conn.Close();
         }
 
+        public void DelAccount(int id)
+        {
+            string SQL = "DELETE FROM dbo.accounts WHERE dbo.accounts.id = @Id";
+            SqlCommand cmd = new SqlCommand(SQL, conn);
+            cmd.Parameters.AddWithValue("Id", id);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
+
+        public void UpdateAccount(AccountDTO account)
+        {
+            string SQL = "UPDATE dbo.accounts\n" +
+                         "SET\n" +
+                         "dbo.accounts.website = @Website, --nvarchar\n" +
+                         "dbo.accounts.account = @Account, --nvarchar\n" +
+                         "dbo.accounts.account_psw = @Password, --nvarchar\n" +
+                         "dbo.accounts.note = @Note --nvarchar\n"+
+                         "WHERE dbo.accounts.id = @Id";
+            SqlCommand cmd = new SqlCommand(SQL, conn);
+            cmd.Parameters.AddWithValue("@Website", account.Website);
+            cmd.Parameters.AddWithValue("@Account", account.Account);
+            cmd.Parameters.AddWithValue("@Password", account.Account_psw);
+            cmd.Parameters.AddWithValue("@Note", account.Note);
+            cmd.Parameters.AddWithValue("@Id", account.Id);
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
+
         public DataTable GetAccounts(string username)
         {
             string SQL = "SELECT a.id, a.website, a.account, a.account_psw, a.note\n" +

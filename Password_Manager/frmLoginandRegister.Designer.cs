@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLoginandRegister));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -59,40 +57,45 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
+            this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label5 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblClose = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.bunifuButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.bunifuTextBox2 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuButton4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.bunifuCheckBox1 = new Bunifu.UI.WinForms.BunifuCheckBox();
+            this.bunifuSeparator2 = new Bunifu.UI.WinForms.BunifuSeparator();
+            this.bunifuTextBox6 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuTextBox5 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuTextBox4 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuTextBox3 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.btnRegisterPage = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnLoginPage = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.bunifuSeparator1 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.bunifuButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.bunifuTextBox2 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.bunifuButton4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.label5 = new System.Windows.Forms.Label();
-            this.bunifuCheckBox1 = new Bunifu.UI.WinForms.BunifuCheckBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.bunifuSeparator2 = new Bunifu.UI.WinForms.BunifuSeparator();
-            this.bunifuTextBox6 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuTextBox5 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuTextBox4 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuTextBox3 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblClose = new System.Windows.Forms.Label();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.bunifuGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.bunifuPages1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.bunifuGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuFormDock1
@@ -134,243 +137,6 @@
             this.bunifuFormDock1.TitleBarOptions.DoubleClickToExpandWindow = true;
             this.bunifuFormDock1.TitleBarOptions.TitleBarControl = null;
             this.bunifuFormDock1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
-            // 
-            // bunifuGradientPanel1
-            // 
-            this.bunifuGradientPanel1.BackColor = System.Drawing.SystemColors.Control;
-            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
-            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.BorderRadius = 1;
-            this.bunifuGradientPanel1.Controls.Add(this.btnRegisterPage);
-            this.bunifuGradientPanel1.Controls.Add(this.btnLoginPage);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuGradientPanel1.Controls.Add(this.label2);
-            this.bunifuGradientPanel1.Controls.Add(this.label1);
-            this.bunifuGradientPanel1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(193)))), ((int)(((byte)(149)))));
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
-            this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(401, 491);
-            this.bunifuGradientPanel1.TabIndex = 0;
-            // 
-            // btnRegisterPage
-            // 
-            this.btnRegisterPage.AllowAnimations = true;
-            this.btnRegisterPage.AllowMouseEffects = true;
-            this.btnRegisterPage.AllowToggling = false;
-            this.btnRegisterPage.AnimationSpeed = 200;
-            this.btnRegisterPage.AutoGenerateColors = false;
-            this.btnRegisterPage.AutoRoundBorders = false;
-            this.btnRegisterPage.AutoSizeLeftIcon = true;
-            this.btnRegisterPage.AutoSizeRightIcon = true;
-            this.btnRegisterPage.BackColor = System.Drawing.Color.Transparent;
-            this.btnRegisterPage.BackColor1 = System.Drawing.Color.Transparent;
-            this.btnRegisterPage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRegisterPage.BackgroundImage")));
-            this.btnRegisterPage.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnRegisterPage.ButtonText = "ĐĂNG KÝ";
-            this.btnRegisterPage.ButtonTextMarginLeft = 0;
-            this.btnRegisterPage.ColorContrastOnClick = 45;
-            this.btnRegisterPage.ColorContrastOnHover = 45;
-            this.btnRegisterPage.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnRegisterPage.CustomizableEdges = borderEdges3;
-            this.btnRegisterPage.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnRegisterPage.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnRegisterPage.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnRegisterPage.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnRegisterPage.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnRegisterPage.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnRegisterPage.ForeColor = System.Drawing.Color.White;
-            this.btnRegisterPage.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegisterPage.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.btnRegisterPage.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btnRegisterPage.IconMarginLeft = 11;
-            this.btnRegisterPage.IconPadding = 10;
-            this.btnRegisterPage.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRegisterPage.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.btnRegisterPage.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btnRegisterPage.IconSize = 25;
-            this.btnRegisterPage.IdleBorderColor = System.Drawing.Color.White;
-            this.btnRegisterPage.IdleBorderRadius = 35;
-            this.btnRegisterPage.IdleBorderThickness = 2;
-            this.btnRegisterPage.IdleFillColor = System.Drawing.Color.Transparent;
-            this.btnRegisterPage.IdleIconLeftImage = null;
-            this.btnRegisterPage.IdleIconRightImage = null;
-            this.btnRegisterPage.IndicateFocus = false;
-            this.btnRegisterPage.Location = new System.Drawing.Point(205, 372);
-            this.btnRegisterPage.Name = "btnRegisterPage";
-            this.btnRegisterPage.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnRegisterPage.OnDisabledState.BorderRadius = 35;
-            this.btnRegisterPage.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnRegisterPage.OnDisabledState.BorderThickness = 2;
-            this.btnRegisterPage.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnRegisterPage.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnRegisterPage.OnDisabledState.IconLeftImage = null;
-            this.btnRegisterPage.OnDisabledState.IconRightImage = null;
-            this.btnRegisterPage.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.btnRegisterPage.onHoverState.BorderRadius = 35;
-            this.btnRegisterPage.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnRegisterPage.onHoverState.BorderThickness = 2;
-            this.btnRegisterPage.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.btnRegisterPage.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btnRegisterPage.onHoverState.IconLeftImage = null;
-            this.btnRegisterPage.onHoverState.IconRightImage = null;
-            this.btnRegisterPage.OnIdleState.BorderColor = System.Drawing.Color.White;
-            this.btnRegisterPage.OnIdleState.BorderRadius = 35;
-            this.btnRegisterPage.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnRegisterPage.OnIdleState.BorderThickness = 2;
-            this.btnRegisterPage.OnIdleState.FillColor = System.Drawing.Color.Transparent;
-            this.btnRegisterPage.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.btnRegisterPage.OnIdleState.IconLeftImage = null;
-            this.btnRegisterPage.OnIdleState.IconRightImage = null;
-            this.btnRegisterPage.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnRegisterPage.OnPressedState.BorderRadius = 35;
-            this.btnRegisterPage.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnRegisterPage.OnPressedState.BorderThickness = 2;
-            this.btnRegisterPage.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnRegisterPage.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btnRegisterPage.OnPressedState.IconLeftImage = null;
-            this.btnRegisterPage.OnPressedState.IconRightImage = null;
-            this.btnRegisterPage.Size = new System.Drawing.Size(156, 43);
-            this.btnRegisterPage.TabIndex = 3;
-            this.btnRegisterPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnRegisterPage.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnRegisterPage.TextMarginLeft = 0;
-            this.btnRegisterPage.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btnRegisterPage.UseDefaultRadiusAndThickness = true;
-            this.btnRegisterPage.Click += new System.EventHandler(this.btnRegisterPage_Click);
-            // 
-            // btnLoginPage
-            // 
-            this.btnLoginPage.AllowAnimations = true;
-            this.btnLoginPage.AllowMouseEffects = true;
-            this.btnLoginPage.AllowToggling = false;
-            this.btnLoginPage.AnimationSpeed = 200;
-            this.btnLoginPage.AutoGenerateColors = false;
-            this.btnLoginPage.AutoRoundBorders = false;
-            this.btnLoginPage.AutoSizeLeftIcon = true;
-            this.btnLoginPage.AutoSizeRightIcon = true;
-            this.btnLoginPage.BackColor = System.Drawing.Color.Transparent;
-            this.btnLoginPage.BackColor1 = System.Drawing.Color.Transparent;
-            this.btnLoginPage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLoginPage.BackgroundImage")));
-            this.btnLoginPage.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnLoginPage.ButtonText = "ĐĂNG NHẬP";
-            this.btnLoginPage.ButtonTextMarginLeft = 0;
-            this.btnLoginPage.ColorContrastOnClick = 45;
-            this.btnLoginPage.ColorContrastOnHover = 45;
-            this.btnLoginPage.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btnLoginPage.CustomizableEdges = borderEdges4;
-            this.btnLoginPage.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnLoginPage.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnLoginPage.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnLoginPage.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnLoginPage.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btnLoginPage.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnLoginPage.ForeColor = System.Drawing.Color.White;
-            this.btnLoginPage.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLoginPage.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.btnLoginPage.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btnLoginPage.IconMarginLeft = 11;
-            this.btnLoginPage.IconPadding = 10;
-            this.btnLoginPage.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLoginPage.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.btnLoginPage.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btnLoginPage.IconSize = 25;
-            this.btnLoginPage.IdleBorderColor = System.Drawing.Color.White;
-            this.btnLoginPage.IdleBorderRadius = 35;
-            this.btnLoginPage.IdleBorderThickness = 2;
-            this.btnLoginPage.IdleFillColor = System.Drawing.Color.Transparent;
-            this.btnLoginPage.IdleIconLeftImage = null;
-            this.btnLoginPage.IdleIconRightImage = null;
-            this.btnLoginPage.IndicateFocus = false;
-            this.btnLoginPage.Location = new System.Drawing.Point(28, 372);
-            this.btnLoginPage.Name = "btnLoginPage";
-            this.btnLoginPage.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btnLoginPage.OnDisabledState.BorderRadius = 35;
-            this.btnLoginPage.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnLoginPage.OnDisabledState.BorderThickness = 2;
-            this.btnLoginPage.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btnLoginPage.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btnLoginPage.OnDisabledState.IconLeftImage = null;
-            this.btnLoginPage.OnDisabledState.IconRightImage = null;
-            this.btnLoginPage.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.btnLoginPage.onHoverState.BorderRadius = 35;
-            this.btnLoginPage.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnLoginPage.onHoverState.BorderThickness = 2;
-            this.btnLoginPage.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.btnLoginPage.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btnLoginPage.onHoverState.IconLeftImage = null;
-            this.btnLoginPage.onHoverState.IconRightImage = null;
-            this.btnLoginPage.OnIdleState.BorderColor = System.Drawing.Color.White;
-            this.btnLoginPage.OnIdleState.BorderRadius = 35;
-            this.btnLoginPage.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnLoginPage.OnIdleState.BorderThickness = 2;
-            this.btnLoginPage.OnIdleState.FillColor = System.Drawing.Color.Transparent;
-            this.btnLoginPage.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.btnLoginPage.OnIdleState.IconLeftImage = null;
-            this.btnLoginPage.OnIdleState.IconRightImage = null;
-            this.btnLoginPage.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnLoginPage.OnPressedState.BorderRadius = 35;
-            this.btnLoginPage.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btnLoginPage.OnPressedState.BorderThickness = 2;
-            this.btnLoginPage.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.btnLoginPage.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btnLoginPage.OnPressedState.IconLeftImage = null;
-            this.btnLoginPage.OnPressedState.IconRightImage = null;
-            this.btnLoginPage.Size = new System.Drawing.Size(156, 43);
-            this.btnLoginPage.TabIndex = 2;
-            this.btnLoginPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnLoginPage.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnLoginPage.TextMarginLeft = 0;
-            this.btnLoginPage.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btnLoginPage.UseDefaultRadiusAndThickness = true;
-            this.btnLoginPage.Click += new System.EventHandler(this.btnLoginPage_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(134, 48);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(131, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(74, 226);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 109);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Phần mềm quản lý mật khẩu";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(128, 168);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 34);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Xin Chào";
             // 
             // bunifuPages1
             // 
@@ -432,6 +198,82 @@
             this.linkLabel2.TabIndex = 5;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Quên mật khẩu?";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(124, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(169, 34);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Đăng Nhập";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage2.Controls.Add(this.bunifuButton4);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.linkLabel1);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.bunifuCheckBox1);
+            this.tabPage2.Controls.Add(this.bunifuSeparator2);
+            this.tabPage2.Controls.Add(this.bunifuTextBox6);
+            this.tabPage2.Controls.Add(this.bunifuTextBox5);
+            this.tabPage2.Controls.Add(this.bunifuTextBox4);
+            this.tabPage2.Controls.Add(this.bunifuTextBox3);
+            this.tabPage2.Location = new System.Drawing.Point(4, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(415, 465);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "đăng ký";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(119, 372);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(206, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Tôi đã đọc và đồng ý với điều khoản trên";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(93, 349);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(103, 13);
+            this.linkLabel1.TabIndex = 6;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Điều khoản sử dụng";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(149, 61);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(133, 34);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Đăng Ký";
+            // 
+            // lblClose
+            // 
+            this.lblClose.AutoSize = true;
+            this.lblClose.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClose.Location = new System.Drawing.Point(789, 9);
+            this.lblClose.Name = "lblClose";
+            this.lblClose.Size = new System.Drawing.Size(23, 22);
+            this.lblClose.TabIndex = 2;
+            this.lblClose.Text = "X";
+            this.lblClose.Click += new System.EventHandler(this.lblClose_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // bunifuSeparator1
             // 
@@ -686,37 +528,6 @@
             this.bunifuTextBox1.WordWrap = true;
             this.bunifuTextBox1.TextChanged += new System.EventHandler(this.bunifuTextBox1_TextChanged);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(124, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 34);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Đăng Nhập";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tabPage2.Controls.Add(this.bunifuButton4);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.bunifuCheckBox1);
-            this.tabPage2.Controls.Add(this.linkLabel1);
-            this.tabPage2.Controls.Add(this.bunifuSeparator2);
-            this.tabPage2.Controls.Add(this.bunifuTextBox6);
-            this.tabPage2.Controls.Add(this.bunifuTextBox5);
-            this.tabPage2.Controls.Add(this.bunifuTextBox4);
-            this.tabPage2.Controls.Add(this.bunifuTextBox3);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(415, 465);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "đăng ký";
-            // 
             // bunifuButton4
             // 
             this.bunifuButton4.AllowAnimations = true;
@@ -806,15 +617,6 @@
             this.bunifuButton4.TextPadding = new System.Windows.Forms.Padding(0);
             this.bunifuButton4.UseDefaultRadiusAndThickness = true;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(119, 372);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(206, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Tôi đã đọc và đồng ý với điều khoản trên";
-            // 
             // bunifuCheckBox1
             // 
             this.bunifuCheckBox1.AllowBindingControlAnimation = true;
@@ -867,16 +669,6 @@
             this.bunifuCheckBox1.TabIndex = 7;
             this.bunifuCheckBox1.ThreeState = false;
             this.bunifuCheckBox1.ToolTipText = null;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(93, 349);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(103, 13);
-            this.linkLabel1.TabIndex = 6;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Điều khoản sử dụng";
             // 
             // bunifuSeparator2
             // 
@@ -1189,31 +981,266 @@
             this.bunifuTextBox3.UseSystemPasswordChar = false;
             this.bunifuTextBox3.WordWrap = true;
             // 
-            // label4
+            // bunifuGradientPanel1
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(149, 61);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 34);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Đăng Ký";
+            this.bunifuGradientPanel1.BackColor = System.Drawing.SystemColors.Control;
+            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
+            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.BorderRadius = 1;
+            this.bunifuGradientPanel1.Controls.Add(this.label6);
+            this.bunifuGradientPanel1.Controls.Add(this.pictureBox2);
+            this.bunifuGradientPanel1.Controls.Add(this.btnRegisterPage);
+            this.bunifuGradientPanel1.Controls.Add(this.btnLoginPage);
+            this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
+            this.bunifuGradientPanel1.Controls.Add(this.label2);
+            this.bunifuGradientPanel1.Controls.Add(this.label1);
+            this.bunifuGradientPanel1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(193)))), ((int)(((byte)(149)))));
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
+            this.bunifuGradientPanel1.Quality = 10;
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(401, 491);
+            this.bunifuGradientPanel1.TabIndex = 0;
             // 
-            // lblClose
+            // btnRegisterPage
             // 
-            this.lblClose.AutoSize = true;
-            this.lblClose.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClose.Location = new System.Drawing.Point(789, 9);
-            this.lblClose.Name = "lblClose";
-            this.lblClose.Size = new System.Drawing.Size(23, 22);
-            this.lblClose.TabIndex = 2;
-            this.lblClose.Text = "X";
-            this.lblClose.Click += new System.EventHandler(this.lblClose_Click);
+            this.btnRegisterPage.AllowAnimations = true;
+            this.btnRegisterPage.AllowMouseEffects = true;
+            this.btnRegisterPage.AllowToggling = false;
+            this.btnRegisterPage.AnimationSpeed = 200;
+            this.btnRegisterPage.AutoGenerateColors = false;
+            this.btnRegisterPage.AutoRoundBorders = false;
+            this.btnRegisterPage.AutoSizeLeftIcon = true;
+            this.btnRegisterPage.AutoSizeRightIcon = true;
+            this.btnRegisterPage.BackColor = System.Drawing.Color.Transparent;
+            this.btnRegisterPage.BackColor1 = System.Drawing.Color.Transparent;
+            this.btnRegisterPage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRegisterPage.BackgroundImage")));
+            this.btnRegisterPage.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnRegisterPage.ButtonText = "ĐĂNG KÝ";
+            this.btnRegisterPage.ButtonTextMarginLeft = 0;
+            this.btnRegisterPage.ColorContrastOnClick = 45;
+            this.btnRegisterPage.ColorContrastOnHover = 45;
+            this.btnRegisterPage.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btnRegisterPage.CustomizableEdges = borderEdges3;
+            this.btnRegisterPage.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnRegisterPage.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnRegisterPage.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnRegisterPage.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnRegisterPage.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnRegisterPage.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnRegisterPage.ForeColor = System.Drawing.Color.White;
+            this.btnRegisterPage.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegisterPage.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btnRegisterPage.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btnRegisterPage.IconMarginLeft = 11;
+            this.btnRegisterPage.IconPadding = 10;
+            this.btnRegisterPage.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnRegisterPage.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btnRegisterPage.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btnRegisterPage.IconSize = 25;
+            this.btnRegisterPage.IdleBorderColor = System.Drawing.Color.White;
+            this.btnRegisterPage.IdleBorderRadius = 35;
+            this.btnRegisterPage.IdleBorderThickness = 2;
+            this.btnRegisterPage.IdleFillColor = System.Drawing.Color.Transparent;
+            this.btnRegisterPage.IdleIconLeftImage = null;
+            this.btnRegisterPage.IdleIconRightImage = null;
+            this.btnRegisterPage.IndicateFocus = false;
+            this.btnRegisterPage.Location = new System.Drawing.Point(205, 372);
+            this.btnRegisterPage.Name = "btnRegisterPage";
+            this.btnRegisterPage.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnRegisterPage.OnDisabledState.BorderRadius = 35;
+            this.btnRegisterPage.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnRegisterPage.OnDisabledState.BorderThickness = 2;
+            this.btnRegisterPage.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnRegisterPage.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnRegisterPage.OnDisabledState.IconLeftImage = null;
+            this.btnRegisterPage.OnDisabledState.IconRightImage = null;
+            this.btnRegisterPage.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.btnRegisterPage.onHoverState.BorderRadius = 35;
+            this.btnRegisterPage.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnRegisterPage.onHoverState.BorderThickness = 2;
+            this.btnRegisterPage.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.btnRegisterPage.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btnRegisterPage.onHoverState.IconLeftImage = null;
+            this.btnRegisterPage.onHoverState.IconRightImage = null;
+            this.btnRegisterPage.OnIdleState.BorderColor = System.Drawing.Color.White;
+            this.btnRegisterPage.OnIdleState.BorderRadius = 35;
+            this.btnRegisterPage.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnRegisterPage.OnIdleState.BorderThickness = 2;
+            this.btnRegisterPage.OnIdleState.FillColor = System.Drawing.Color.Transparent;
+            this.btnRegisterPage.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btnRegisterPage.OnIdleState.IconLeftImage = null;
+            this.btnRegisterPage.OnIdleState.IconRightImage = null;
+            this.btnRegisterPage.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnRegisterPage.OnPressedState.BorderRadius = 35;
+            this.btnRegisterPage.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnRegisterPage.OnPressedState.BorderThickness = 2;
+            this.btnRegisterPage.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnRegisterPage.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btnRegisterPage.OnPressedState.IconLeftImage = null;
+            this.btnRegisterPage.OnPressedState.IconRightImage = null;
+            this.btnRegisterPage.Size = new System.Drawing.Size(156, 43);
+            this.btnRegisterPage.TabIndex = 3;
+            this.btnRegisterPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnRegisterPage.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnRegisterPage.TextMarginLeft = 0;
+            this.btnRegisterPage.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btnRegisterPage.UseDefaultRadiusAndThickness = true;
+            this.btnRegisterPage.Click += new System.EventHandler(this.btnRegisterPage_Click);
             // 
-            // errorProvider1
+            // btnLoginPage
             // 
-            this.errorProvider1.ContainerControl = this;
+            this.btnLoginPage.AllowAnimations = true;
+            this.btnLoginPage.AllowMouseEffects = true;
+            this.btnLoginPage.AllowToggling = false;
+            this.btnLoginPage.AnimationSpeed = 200;
+            this.btnLoginPage.AutoGenerateColors = false;
+            this.btnLoginPage.AutoRoundBorders = false;
+            this.btnLoginPage.AutoSizeLeftIcon = true;
+            this.btnLoginPage.AutoSizeRightIcon = true;
+            this.btnLoginPage.BackColor = System.Drawing.Color.Transparent;
+            this.btnLoginPage.BackColor1 = System.Drawing.Color.Transparent;
+            this.btnLoginPage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLoginPage.BackgroundImage")));
+            this.btnLoginPage.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnLoginPage.ButtonText = "ĐĂNG NHẬP";
+            this.btnLoginPage.ButtonTextMarginLeft = 0;
+            this.btnLoginPage.ColorContrastOnClick = 45;
+            this.btnLoginPage.ColorContrastOnHover = 45;
+            this.btnLoginPage.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btnLoginPage.CustomizableEdges = borderEdges4;
+            this.btnLoginPage.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnLoginPage.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnLoginPage.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnLoginPage.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnLoginPage.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btnLoginPage.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLoginPage.ForeColor = System.Drawing.Color.White;
+            this.btnLoginPage.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLoginPage.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btnLoginPage.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btnLoginPage.IconMarginLeft = 11;
+            this.btnLoginPage.IconPadding = 10;
+            this.btnLoginPage.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLoginPage.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btnLoginPage.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btnLoginPage.IconSize = 25;
+            this.btnLoginPage.IdleBorderColor = System.Drawing.Color.White;
+            this.btnLoginPage.IdleBorderRadius = 35;
+            this.btnLoginPage.IdleBorderThickness = 2;
+            this.btnLoginPage.IdleFillColor = System.Drawing.Color.Transparent;
+            this.btnLoginPage.IdleIconLeftImage = null;
+            this.btnLoginPage.IdleIconRightImage = null;
+            this.btnLoginPage.IndicateFocus = false;
+            this.btnLoginPage.Location = new System.Drawing.Point(28, 372);
+            this.btnLoginPage.Name = "btnLoginPage";
+            this.btnLoginPage.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btnLoginPage.OnDisabledState.BorderRadius = 35;
+            this.btnLoginPage.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnLoginPage.OnDisabledState.BorderThickness = 2;
+            this.btnLoginPage.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btnLoginPage.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnLoginPage.OnDisabledState.IconLeftImage = null;
+            this.btnLoginPage.OnDisabledState.IconRightImage = null;
+            this.btnLoginPage.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.btnLoginPage.onHoverState.BorderRadius = 35;
+            this.btnLoginPage.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnLoginPage.onHoverState.BorderThickness = 2;
+            this.btnLoginPage.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.btnLoginPage.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btnLoginPage.onHoverState.IconLeftImage = null;
+            this.btnLoginPage.onHoverState.IconRightImage = null;
+            this.btnLoginPage.OnIdleState.BorderColor = System.Drawing.Color.White;
+            this.btnLoginPage.OnIdleState.BorderRadius = 35;
+            this.btnLoginPage.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnLoginPage.OnIdleState.BorderThickness = 2;
+            this.btnLoginPage.OnIdleState.FillColor = System.Drawing.Color.Transparent;
+            this.btnLoginPage.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btnLoginPage.OnIdleState.IconLeftImage = null;
+            this.btnLoginPage.OnIdleState.IconRightImage = null;
+            this.btnLoginPage.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnLoginPage.OnPressedState.BorderRadius = 35;
+            this.btnLoginPage.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btnLoginPage.OnPressedState.BorderThickness = 2;
+            this.btnLoginPage.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btnLoginPage.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btnLoginPage.OnPressedState.IconLeftImage = null;
+            this.btnLoginPage.OnPressedState.IconRightImage = null;
+            this.btnLoginPage.Size = new System.Drawing.Size(156, 43);
+            this.btnLoginPage.TabIndex = 2;
+            this.btnLoginPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnLoginPage.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnLoginPage.TextMarginLeft = 0;
+            this.btnLoginPage.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btnLoginPage.UseDefaultRadiusAndThickness = true;
+            this.btnLoginPage.Click += new System.EventHandler(this.btnLoginPage_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(134, 48);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(131, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(74, 226);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(248, 109);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Phần mềm quản lý mật khẩu";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(128, 168);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 34);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Xin Chào";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(96, 445);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 24);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(127, 448);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(183, 17);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Copyright by codezooteam";
             // 
             // frmLoginandRegister
             // 
@@ -1227,15 +1254,16 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmLoginandRegister";
             this.Text = "frmLoginandRegister";
-            this.bunifuGradientPanel1.ResumeLayout(false);
-            this.bunifuGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.bunifuPages1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.bunifuGradientPanel1.ResumeLayout(false);
+            this.bunifuGradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1271,5 +1299,7 @@
         private System.Windows.Forms.Label lblClose;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

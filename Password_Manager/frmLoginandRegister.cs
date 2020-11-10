@@ -36,5 +36,26 @@ namespace Password_Manager
         {
             Application.Exit();
         }
+
+        private void txtLoginPassword_TextChanged(object sender, EventArgs e)
+        {
+            txtLoginPassword.UseSystemPasswordChar = true;
+        }
+
+        private void linkForgotPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmOTP otp = new frmOTP();
+            otp.Show();
+        }
+
+        private void bunifuTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuGradientPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

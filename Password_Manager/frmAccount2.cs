@@ -16,5 +16,10 @@ namespace Password_Manager
         {
             InitializeComponent();
         }
+
+        private void txtAddAccountPassword_TextChanged(object sender, EventArgs e)
+        {
+            txtAddAccountPassword.UseSystemPasswordChar = true;
+        }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Password_Manager
 {
-    public partial class frmEdit2 : Form
+    public partial class frmOTP : Form
     {
-        public frmEdit2()
+        public frmOTP()
         {
             InitializeComponent();
-        }
-
-        private void txtEditAccountPassword_TextChanged(object sender, EventArgs e)
-        {
-            txtEditAccountPassword.UseSystemPasswordChar = true;
         }
     }
 }

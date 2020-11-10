@@ -19,7 +19,7 @@ namespace Password_Manager
 
         private void txtAddAccountPassword_TextChanged(object sender, EventArgs e)
         {
-            txtAddAccountPassword.UseSystemPasswordChar = true;
+            txtCreateAccountPassword.UseSystemPasswordChar = true;
         }
     }
 }

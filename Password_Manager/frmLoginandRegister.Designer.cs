@@ -79,7 +79,7 @@
             this.txtConfirmRegisterPassword = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtRegisterPassword = new Bunifu.UI.WinForms.BunifuTextBox();
             this.txtRegisterAccount = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -91,7 +91,7 @@
             this.bunifuPages1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -302,6 +302,7 @@
             this.btnLoginAccount.TextMarginLeft = 0;
             this.btnLoginAccount.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnLoginAccount.UseDefaultRadiusAndThickness = true;
+            this.btnLoginAccount.Click += new System.EventHandler(this.btnLoginAccount_Click);
             // 
             // txtLoginPassword
             // 
@@ -572,6 +573,7 @@
             this.btnAccountRegister.TextMarginLeft = 0;
             this.btnAccountRegister.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnAccountRegister.UseDefaultRadiusAndThickness = true;
+            this.btnAccountRegister.Click += new System.EventHandler(this.btnAccountRegister_Click);
             // 
             // label5
             // 
@@ -744,6 +746,7 @@
             this.txtRegisterPhoneNumber.TextPlaceholder = "Số điện thoại";
             this.txtRegisterPhoneNumber.UseSystemPasswordChar = false;
             this.txtRegisterPhoneNumber.WordWrap = true;
+            this.txtRegisterPhoneNumber.Validating += new System.ComponentModel.CancelEventHandler(this.txtRegisterPhoneNumber_Validating);
             // 
             // txtConfirmRegisterPassword
             // 
@@ -819,6 +822,7 @@
             this.txtConfirmRegisterPassword.UseSystemPasswordChar = false;
             this.txtConfirmRegisterPassword.WordWrap = true;
             this.txtConfirmRegisterPassword.TextChanged += new System.EventHandler(this.txtConfirmRegisterPassword_TextChanged);
+            this.txtConfirmRegisterPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtConfirmRegisterPassword_Validating);
             // 
             // txtRegisterPassword
             // 
@@ -894,6 +898,7 @@
             this.txtRegisterPassword.UseSystemPasswordChar = false;
             this.txtRegisterPassword.WordWrap = true;
             this.txtRegisterPassword.TextChanged += new System.EventHandler(this.bunifuTextBox4_TextChanged);
+            this.txtRegisterPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtRegisterPassword_Validating);
             // 
             // txtRegisterAccount
             // 
@@ -968,10 +973,11 @@
             this.txtRegisterAccount.TextPlaceholder = "Tài khoản";
             this.txtRegisterAccount.UseSystemPasswordChar = false;
             this.txtRegisterAccount.WordWrap = true;
+            this.txtRegisterAccount.Validating += new System.ComponentModel.CancelEventHandler(this.txtRegisterAccount_Validating);
             // 
-            // errorProvider1
+            // errorProvider
             // 
-            this.errorProvider1.ContainerControl = this;
+            this.errorProvider.ContainerControl = this;
             // 
             // bunifuGradientPanel1
             // 
@@ -1253,7 +1259,7 @@
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -1290,7 +1296,7 @@
         private Bunifu.UI.WinForms.BunifuTextBox txtRegisterAccount;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel linkForgotPassword;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.ErrorProvider errorProvider;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox2;
     }

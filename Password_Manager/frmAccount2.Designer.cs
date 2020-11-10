@@ -170,6 +170,7 @@
             this.btnAddAccount.TextMarginLeft = 0;
             this.btnAddAccount.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnAddAccount.UseDefaultRadiusAndThickness = true;
+            this.btnAddAccount.Click += new System.EventHandler(this.btnAddAccount_Click);
             // 
             // txtCreateNote
             // 

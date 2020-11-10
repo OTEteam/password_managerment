@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOTP));
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -38,6 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtOTP = new Bunifu.UI.WinForms.BunifuTextBox();
             this.btnConfirmOTP = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -125,7 +128,7 @@
             this.txtOTP.SelectionLength = 0;
             this.txtOTP.SelectionStart = 0;
             this.txtOTP.ShortcutsEnabled = true;
-            this.txtOTP.Size = new System.Drawing.Size(281, 35);
+            this.txtOTP.Size = new System.Drawing.Size(281, 43);
             this.txtOTP.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtOTP.TabIndex = 3;
             this.txtOTP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -225,6 +228,10 @@
             this.btnConfirmOTP.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnConfirmOTP.UseDefaultRadiusAndThickness = true;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // frmOTP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,6 +244,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmOTP";
             this.Text = "frmOTP";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,5 +256,6 @@
         private System.Windows.Forms.Label label2;
         private Bunifu.UI.WinForms.BunifuTextBox txtOTP;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnConfirmOTP;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

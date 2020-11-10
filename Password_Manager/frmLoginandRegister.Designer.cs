@@ -818,6 +818,7 @@
             this.txtConfirmRegisterPassword.TextPlaceholder = "Xác nhận mật khẩu";
             this.txtConfirmRegisterPassword.UseSystemPasswordChar = false;
             this.txtConfirmRegisterPassword.WordWrap = true;
+            this.txtConfirmRegisterPassword.TextChanged += new System.EventHandler(this.txtConfirmRegisterPassword_TextChanged);
             // 
             // txtRegisterPassword
             // 

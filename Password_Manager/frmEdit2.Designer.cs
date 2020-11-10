@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEdit2));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -63,9 +64,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -374,7 +377,7 @@
             this.bunifuTextBox4.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuTextBox4.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuTextBox4.BorderColorIdle = System.Drawing.Color.Silver;
-            this.bunifuTextBox4.BorderRadius = 9;
+            this.bunifuTextBox4.BorderRadius = 35;
             this.bunifuTextBox4.BorderThickness = 1;
             this.bunifuTextBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.bunifuTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -448,7 +451,7 @@
             this.txtEditAccountPassword.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.txtEditAccountPassword.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.txtEditAccountPassword.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txtEditAccountPassword.BorderRadius = 9;
+            this.txtEditAccountPassword.BorderRadius = 35;
             this.txtEditAccountPassword.BorderThickness = 1;
             this.txtEditAccountPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.txtEditAccountPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -523,7 +526,7 @@
             this.bunifuTextBox2.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuTextBox2.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuTextBox2.BorderColorIdle = System.Drawing.Color.Silver;
-            this.bunifuTextBox2.BorderRadius = 9;
+            this.bunifuTextBox2.BorderRadius = 35;
             this.bunifuTextBox2.BorderThickness = 1;
             this.bunifuTextBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.bunifuTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -597,7 +600,7 @@
             this.bunifuTextBox1.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuTextBox1.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuTextBox1.BorderColorIdle = System.Drawing.Color.Silver;
-            this.bunifuTextBox1.BorderRadius = 9;
+            this.bunifuTextBox1.BorderRadius = 35;
             this.bunifuTextBox1.BorderThickness = 1;
             this.bunifuTextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.bunifuTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -737,6 +740,10 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Xin Chào";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // frmEdit2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -760,6 +767,7 @@
             this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -782,5 +790,6 @@
         private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

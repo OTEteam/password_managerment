@@ -50,12 +50,17 @@ namespace Password_Manager
 
         private void bunifuTextBox4_TextChanged(object sender, EventArgs e)
         {
-
+            txtRegisterPassword.UseSystemPasswordChar = true;
         }
 
         private void bunifuGradientPanel1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtConfirmRegisterPassword_TextChanged(object sender, EventArgs e)
+        {
+            txtConfirmRegisterPassword.UseSystemPasswordChar = true;
         }
     }
 }

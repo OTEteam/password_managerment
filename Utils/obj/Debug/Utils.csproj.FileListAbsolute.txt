@@ -10,3 +10,9 @@ F:\Code\PRN292\Password_Project\password_managerment\Utils\obj\Debug\Utils.cspro
 F:\Code\PRN292\Password_Project\password_managerment\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
 F:\Code\PRN292\Password_Project\password_managerment\Utils\obj\Debug\Utils.dll
 F:\Code\PRN292\Password_Project\password_managerment\Utils\obj\Debug\Utils.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Utils\bin\Debug\Utils.dll
+C:\Users\nhoxp\source\repos\password_Manager_v2\Utils\bin\Debug\Utils.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Utils\obj\Debug\Utils.csprojAssemblyReference.cache
+C:\Users\nhoxp\source\repos\password_Manager_v2\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\nhoxp\source\repos\password_Manager_v2\Utils\obj\Debug\Utils.dll
+C:\Users\nhoxp\source\repos\password_Manager_v2\Utils\obj\Debug\Utils.pdb

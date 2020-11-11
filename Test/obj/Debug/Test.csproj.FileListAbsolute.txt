@@ -8,3 +8,13 @@ C:\Users\nhoxp\source\repos\Password_Manager\Test\obj\Debug\Test.csproj.CoreComp
 C:\Users\nhoxp\source\repos\Password_Manager\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\nhoxp\source\repos\Password_Manager\Test\obj\Debug\Test.exe
 C:\Users\nhoxp\source\repos\Password_Manager\Test\obj\Debug\Test.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\bin\Debug\Test.exe.config
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\bin\Debug\Test.exe
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\bin\Debug\Test.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\bin\Debug\Utils.dll
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\bin\Debug\Utils.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\obj\Debug\Test.exe
+C:\Users\nhoxp\source\repos\password_Manager_v2\Test\obj\Debug\Test.pdb

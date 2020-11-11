@@ -75,6 +75,7 @@
             this.txtOlderPsw.Size = new System.Drawing.Size(200, 26);
             this.txtOlderPsw.TabIndex = 3;
             this.txtOlderPsw.UseSystemPasswordChar = true;
+            this.txtOlderPsw.TextChanged += new System.EventHandler(this.txtOlderPsw_TextChanged);
             this.txtOlderPsw.Validating += new System.ComponentModel.CancelEventHandler(this.txtOlderPsw_Validating);
             // 
             // txtNewPsw

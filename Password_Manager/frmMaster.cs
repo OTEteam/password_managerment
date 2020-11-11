@@ -90,5 +90,10 @@ namespace Password_Manager
                 provider.Clear();
             }
         }
+
+        private void txtOlderPsw_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

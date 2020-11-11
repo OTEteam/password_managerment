@@ -13,20 +13,19 @@ namespace Test
         {
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
-            Console.WriteLine("Please enter a password to use:");
-            string password = Console.ReadLine();
             Console.WriteLine("Please enter a string to encrypt:");
             string plaintext = Console.ReadLine();
             Console.WriteLine("");
             Console.WriteLine(plaintext);
 
             Console.WriteLine("Your encrypted string is:");
-            string encryptedstring = StringCipher.Encrypt(plaintext, password);
+            string encryptedstring = StringCipher.Encrypt(plaintext, StringCipher.DefaultPsw);
             Console.WriteLine(encryptedstring);
             Console.WriteLine("");
 
             Console.WriteLine("Your decrypted string is:");
-            string decryptedstring = StringCipher.Decrypt("e+jRaL4Zf5kqtzUfNvk1t+igUp6AssHNjopTEKe7l5b/+NV69vgg5c50gdn/Po0FtQQbwhtu57BIbw4LVRAnTGqNtyyHEKQmznvqTmPMg5ifz0FAnB/x+xV0iO3sVSWq", "1234");
+            string decryptedstring = StringCipher.Decrypt("uXKKpHOB2lVVO2yO3nv/BaWMIcGGy/MC2rghYGYqkdYaNGxcEatjaiQ+7o5Nte4bxjOHXLWlXxMaSk0RX/DoBg7NL905Z2gZfeOTK3lWqr/gK65mSr7ZCt/RnmGpm/Ei", StringCipher.DefaultPsw);
+            Console.WriteLine(StringCipher.Encrypt("123", StringCipher.DefaultPsw) == StringCipher.Encrypt("123", StringCipher.DefaultPsw));
             Console.WriteLine(decryptedstring);
             Console.WriteLine("");
 

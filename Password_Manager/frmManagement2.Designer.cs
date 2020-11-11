@@ -60,7 +60,6 @@
             this.btnCreateAccount = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.panelTransition = new Bunifu.UI.WinForms.BunifuTransition(this.components);
             this.dgvPasswordManager = new Bunifu.UI.WinForms.BunifuDataGridView();
-            this.logoTransition = new Bunifu.UI.WinForms.BunifuTransition(this.components);
             this.Website = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Account = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,6 +68,7 @@
             this.accountHidden = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.passwordHidden = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.noteVisible = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.logoTransition = new Bunifu.UI.WinForms.BunifuTransition(this.components);
             this.sideMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCopyRight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -93,8 +93,9 @@
             this.panelTransition.SetDecoration(this.sideMenu, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.sideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.sideMenu.Location = new System.Drawing.Point(0, 0);
+            this.sideMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sideMenu.Name = "sideMenu";
-            this.sideMenu.Size = new System.Drawing.Size(260, 551);
+            this.sideMenu.Size = new System.Drawing.Size(370, 848);
             this.sideMenu.TabIndex = 0;
             // 
             // txtFindAccount
@@ -126,9 +127,10 @@
             this.txtFindAccount.IconRight = null;
             this.txtFindAccount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtFindAccount.Lines = new string[0];
-            this.txtFindAccount.Location = new System.Drawing.Point(12, 96);
+            this.txtFindAccount.Location = new System.Drawing.Point(18, 148);
+            this.txtFindAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFindAccount.MaxLength = 32767;
-            this.txtFindAccount.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtFindAccount.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtFindAccount.Modified = false;
             this.txtFindAccount.Multiline = false;
             this.txtFindAccount.Name = "txtFindAccount";
@@ -152,7 +154,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtFindAccount.OnIdleState = stateProperties4;
-            this.txtFindAccount.Padding = new System.Windows.Forms.Padding(3);
+            this.txtFindAccount.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFindAccount.PasswordChar = '\0';
             this.txtFindAccount.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtFindAccount.PlaceholderText = "Tìm kiếm tài khoản";
@@ -162,7 +164,7 @@
             this.txtFindAccount.SelectionLength = 0;
             this.txtFindAccount.SelectionStart = 0;
             this.txtFindAccount.ShortcutsEnabled = true;
-            this.txtFindAccount.Size = new System.Drawing.Size(239, 35);
+            this.txtFindAccount.Size = new System.Drawing.Size(358, 54);
             this.txtFindAccount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtFindAccount.TabIndex = 8;
             this.txtFindAccount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -181,9 +183,10 @@
             this.panelTransition.SetDecoration(this.lblCopyright, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.logoTransition.SetDecoration(this.lblCopyright, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.lblCopyright.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCopyright.Location = new System.Drawing.Point(46, 496);
+            this.lblCopyright.Location = new System.Drawing.Point(69, 763);
+            this.lblCopyright.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCopyright.Name = "lblCopyright";
-            this.lblCopyright.Size = new System.Drawing.Size(183, 17);
+            this.lblCopyright.Size = new System.Drawing.Size(289, 28);
             this.lblCopyright.TabIndex = 7;
             this.lblCopyright.Text = "Copyright by codezooteam";
             // 
@@ -193,23 +196,26 @@
             this.panelTransition.SetDecoration(this.picCopyRight, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.logoTransition.SetDecoration(this.picCopyRight, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.picCopyRight.Image = ((System.Drawing.Image)(resources.GetObject("picCopyRight.Image")));
-            this.picCopyRight.Location = new System.Drawing.Point(15, 493);
+            this.picCopyRight.Location = new System.Drawing.Point(22, 758);
+            this.picCopyRight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.picCopyRight.Name = "picCopyRight";
-            this.picCopyRight.Size = new System.Drawing.Size(31, 24);
+            this.picCopyRight.Size = new System.Drawing.Size(46, 37);
             this.picCopyRight.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picCopyRight.TabIndex = 6;
             this.picCopyRight.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.panelTransition.SetDecoration(this.pictureBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.logoTransition.SetDecoration(this.pictureBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(205, 32);
+            this.pictureBox1.Location = new System.Drawing.Point(288, 49);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(49, 49);
+            this.pictureBox1.Size = new System.Drawing.Size(74, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -264,7 +270,8 @@
             this.logo.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("logo.IdleIconLeftImage")));
             this.logo.IdleIconRightImage = null;
             this.logo.IndicateFocus = false;
-            this.logo.Location = new System.Drawing.Point(3, 22);
+            this.logo.Location = new System.Drawing.Point(4, 34);
+            this.logo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.logo.Name = "logo";
             this.logo.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.logo.OnDisabledState.BorderRadius = 1;
@@ -298,7 +305,7 @@
             this.logo.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.logo.OnPressedState.IconLeftImage = null;
             this.logo.OnPressedState.IconRightImage = null;
-            this.logo.Size = new System.Drawing.Size(171, 68);
+            this.logo.Size = new System.Drawing.Size(256, 105);
             this.logo.TabIndex = 3;
             this.logo.TabStop = false;
             this.logo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -356,7 +363,8 @@
             this.btnLogout.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnLogout.IdleIconLeftImage")));
             this.btnLogout.IdleIconRightImage = null;
             this.btnLogout.IndicateFocus = false;
-            this.btnLogout.Location = new System.Drawing.Point(3, 433);
+            this.btnLogout.Location = new System.Drawing.Point(4, 666);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnLogout.OnDisabledState.BorderRadius = 35;
@@ -390,7 +398,7 @@
             this.btnLogout.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnLogout.OnPressedState.IconLeftImage = null;
             this.btnLogout.OnPressedState.IconRightImage = null;
-            this.btnLogout.Size = new System.Drawing.Size(251, 51);
+            this.btnLogout.Size = new System.Drawing.Size(376, 78);
             this.btnLogout.TabIndex = 2;
             this.btnLogout.TabStop = false;
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -398,6 +406,7 @@
             this.btnLogout.TextMarginLeft = 0;
             this.btnLogout.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnLogout.UseDefaultRadiusAndThickness = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnAbout
             // 
@@ -448,7 +457,8 @@
             this.btnAbout.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnAbout.IdleIconLeftImage")));
             this.btnAbout.IdleIconRightImage = null;
             this.btnAbout.IndicateFocus = false;
-            this.btnAbout.Location = new System.Drawing.Point(3, 372);
+            this.btnAbout.Location = new System.Drawing.Point(4, 572);
+            this.btnAbout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAbout.OnDisabledState.BorderRadius = 35;
@@ -482,7 +492,7 @@
             this.btnAbout.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAbout.OnPressedState.IconLeftImage = null;
             this.btnAbout.OnPressedState.IconRightImage = null;
-            this.btnAbout.Size = new System.Drawing.Size(251, 51);
+            this.btnAbout.Size = new System.Drawing.Size(376, 78);
             this.btnAbout.TabIndex = 2;
             this.btnAbout.TabStop = false;
             this.btnAbout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -540,7 +550,8 @@
             this.btnSetting.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnSetting.IdleIconLeftImage")));
             this.btnSetting.IdleIconRightImage = null;
             this.btnSetting.IndicateFocus = false;
-            this.btnSetting.Location = new System.Drawing.Point(3, 313);
+            this.btnSetting.Location = new System.Drawing.Point(4, 482);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSetting.OnDisabledState.BorderRadius = 35;
@@ -574,7 +585,7 @@
             this.btnSetting.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnSetting.OnPressedState.IconLeftImage = null;
             this.btnSetting.OnPressedState.IconRightImage = null;
-            this.btnSetting.Size = new System.Drawing.Size(251, 51);
+            this.btnSetting.Size = new System.Drawing.Size(376, 78);
             this.btnSetting.TabIndex = 2;
             this.btnSetting.TabStop = false;
             this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -632,7 +643,8 @@
             this.btnInstruction.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnInstruction.IdleIconLeftImage")));
             this.btnInstruction.IdleIconRightImage = null;
             this.btnInstruction.IndicateFocus = false;
-            this.btnInstruction.Location = new System.Drawing.Point(3, 254);
+            this.btnInstruction.Location = new System.Drawing.Point(4, 391);
+            this.btnInstruction.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnInstruction.Name = "btnInstruction";
             this.btnInstruction.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnInstruction.OnDisabledState.BorderRadius = 35;
@@ -666,7 +678,7 @@
             this.btnInstruction.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnInstruction.OnPressedState.IconLeftImage = null;
             this.btnInstruction.OnPressedState.IconRightImage = null;
-            this.btnInstruction.Size = new System.Drawing.Size(251, 51);
+            this.btnInstruction.Size = new System.Drawing.Size(376, 78);
             this.btnInstruction.TabIndex = 2;
             this.btnInstruction.TabStop = false;
             this.btnInstruction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -724,7 +736,8 @@
             this.btnChangeMasterKey.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnChangeMasterKey.IdleIconLeftImage")));
             this.btnChangeMasterKey.IdleIconRightImage = null;
             this.btnChangeMasterKey.IndicateFocus = false;
-            this.btnChangeMasterKey.Location = new System.Drawing.Point(3, 195);
+            this.btnChangeMasterKey.Location = new System.Drawing.Point(4, 300);
+            this.btnChangeMasterKey.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnChangeMasterKey.Name = "btnChangeMasterKey";
             this.btnChangeMasterKey.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnChangeMasterKey.OnDisabledState.BorderRadius = 35;
@@ -758,7 +771,7 @@
             this.btnChangeMasterKey.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnChangeMasterKey.OnPressedState.IconLeftImage = null;
             this.btnChangeMasterKey.OnPressedState.IconRightImage = null;
-            this.btnChangeMasterKey.Size = new System.Drawing.Size(251, 51);
+            this.btnChangeMasterKey.Size = new System.Drawing.Size(376, 78);
             this.btnChangeMasterKey.TabIndex = 2;
             this.btnChangeMasterKey.TabStop = false;
             this.btnChangeMasterKey.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -817,7 +830,8 @@
             this.btnCreateAccount.IdleIconLeftImage = ((System.Drawing.Image)(resources.GetObject("btnCreateAccount.IdleIconLeftImage")));
             this.btnCreateAccount.IdleIconRightImage = null;
             this.btnCreateAccount.IndicateFocus = false;
-            this.btnCreateAccount.Location = new System.Drawing.Point(3, 137);
+            this.btnCreateAccount.Location = new System.Drawing.Point(4, 211);
+            this.btnCreateAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCreateAccount.Name = "btnCreateAccount";
             this.btnCreateAccount.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnCreateAccount.OnDisabledState.BorderRadius = 35;
@@ -851,7 +865,7 @@
             this.btnCreateAccount.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnCreateAccount.OnPressedState.IconLeftImage = null;
             this.btnCreateAccount.OnPressedState.IconRightImage = null;
-            this.btnCreateAccount.Size = new System.Drawing.Size(251, 51);
+            this.btnCreateAccount.Size = new System.Drawing.Size(376, 78);
             this.btnCreateAccount.TabIndex = 2;
             this.btnCreateAccount.TabStop = false;
             this.btnCreateAccount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -885,6 +899,8 @@
             // dgvPasswordManager
             // 
             this.dgvPasswordManager.AllowCustomTheming = false;
+            this.dgvPasswordManager.AllowUserToAddRows = false;
+            this.dgvPasswordManager.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             this.dgvPasswordManager.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
@@ -945,16 +961,72 @@
             this.dgvPasswordManager.HeaderBackColor = System.Drawing.Color.DodgerBlue;
             this.dgvPasswordManager.HeaderBgColor = System.Drawing.Color.Empty;
             this.dgvPasswordManager.HeaderForeColor = System.Drawing.Color.White;
-            this.dgvPasswordManager.Location = new System.Drawing.Point(260, 0);
+            this.dgvPasswordManager.Location = new System.Drawing.Point(370, 0);
+            this.dgvPasswordManager.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvPasswordManager.Name = "dgvPasswordManager";
             this.dgvPasswordManager.RowHeadersVisible = false;
+            this.dgvPasswordManager.RowHeadersWidth = 62;
             this.dgvPasswordManager.RowTemplate.Height = 40;
             this.dgvPasswordManager.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPasswordManager.Size = new System.Drawing.Size(1146, 551);
+            this.dgvPasswordManager.Size = new System.Drawing.Size(1554, 848);
             this.dgvPasswordManager.TabIndex = 1;
             this.dgvPasswordManager.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             this.dgvPasswordManager.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPasswordManager_CellContentClick);
             this.dgvPasswordManager.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvPasswordManager_CellFormatting);
+            // 
+            // Website
+            // 
+            this.Website.HeaderText = "Website";
+            this.Website.MinimumWidth = 8;
+            this.Website.Name = "Website";
+            this.Website.ReadOnly = true;
+            // 
+            // Account
+            // 
+            this.Account.HeaderText = "Tài khoản";
+            this.Account.MinimumWidth = 8;
+            this.Account.Name = "Account";
+            this.Account.ReadOnly = true;
+            // 
+            // Password
+            // 
+            this.Password.HeaderText = "Mật khẩu";
+            this.Password.MinimumWidth = 8;
+            this.Password.Name = "Password";
+            this.Password.ReadOnly = true;
+            // 
+            // chkPassword
+            // 
+            this.chkPassword.HeaderText = "Hiện mật khẩu";
+            this.chkPassword.MinimumWidth = 8;
+            this.chkPassword.Name = "chkPassword";
+            // 
+            // Edit
+            // 
+            this.Edit.HeaderText = "";
+            this.Edit.MinimumWidth = 8;
+            this.Edit.Name = "Edit";
+            // 
+            // accountHidden
+            // 
+            this.accountHidden.HeaderText = "Hiển thị ID";
+            this.accountHidden.MinimumWidth = 8;
+            this.accountHidden.Name = "accountHidden";
+            this.accountHidden.Visible = false;
+            // 
+            // passwordHidden
+            // 
+            this.passwordHidden.HeaderText = "Hiển thị mật khẩu";
+            this.passwordHidden.MinimumWidth = 8;
+            this.passwordHidden.Name = "passwordHidden";
+            this.passwordHidden.Visible = false;
+            // 
+            // noteVisible
+            // 
+            this.noteVisible.HeaderText = "Ẩn ghi chú";
+            this.noteVisible.MinimumWidth = 8;
+            this.noteVisible.Name = "noteVisible";
+            this.noteVisible.Visible = false;
             // 
             // logoTransition
             // 
@@ -977,57 +1049,18 @@
             animation2.TransparencyCoeff = 0F;
             this.logoTransition.DefaultAnimation = animation2;
             // 
-            // Website
-            // 
-            this.Website.HeaderText = "Website";
-            this.Website.Name = "Website";
-            // 
-            // Account
-            // 
-            this.Account.HeaderText = "Tài khoản";
-            this.Account.Name = "Account";
-            // 
-            // Password
-            // 
-            this.Password.HeaderText = "Mật khẩu";
-            this.Password.Name = "Password";
-            // 
-            // chkPassword
-            // 
-            this.chkPassword.HeaderText = "Hiện mật khẩu";
-            this.chkPassword.Name = "chkPassword";
-            // 
-            // Edit
-            // 
-            this.Edit.HeaderText = "";
-            this.Edit.Name = "Edit";
-            // 
-            // accountHidden
-            // 
-            this.accountHidden.HeaderText = "Hiển thị ID";
-            this.accountHidden.Name = "accountHidden";
-            // 
-            // passwordHidden
-            // 
-            this.passwordHidden.HeaderText = "Hiển thị mật khẩu";
-            this.passwordHidden.Name = "passwordHidden";
-            // 
-            // noteVisible
-            // 
-            this.noteVisible.HeaderText = "Ẩn ghi chú";
-            this.noteVisible.Name = "noteVisible";
-            // 
             // frmManagement2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
-            this.ClientSize = new System.Drawing.Size(1406, 551);
+            this.ClientSize = new System.Drawing.Size(1924, 848);
             this.Controls.Add(this.dgvPasswordManager);
             this.Controls.Add(this.sideMenu);
             this.logoTransition.SetDecoration(this, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.panelTransition.SetDecoration(this, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmManagement2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmManagement2";

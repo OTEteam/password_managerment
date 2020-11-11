@@ -25,3 +25,12 @@ F:\Code\PRN292\Password_Project\password_managerment\Data Access Object\obj\Debu
 F:\Code\PRN292\Password_Project\password_managerment\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
 F:\Code\PRN292\Password_Project\password_managerment\Data Access Object\obj\Debug\Data Access Object.dll
 F:\Code\PRN292\Password_Project\password_managerment\Data Access Object\obj\Debug\Data Access Object.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\bin\Debug\Data Access Object.dll
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\bin\Debug\Data Access Object.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\bin\Debug\Data Transfer Object.dll
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\bin\Debug\Data Transfer Object.pdb
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\obj\Debug\Data Access Object.csprojAssemblyReference.cache
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\obj\Debug\Data Access Object.csproj.CoreCompileInputs.cache
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\obj\Debug\Data Access Object.dll
+C:\Users\nhoxp\source\repos\password_Manager_v2\Data Access Object\obj\Debug\Data Access Object.pdb

@@ -26,14 +26,13 @@ namespace Data_Access_Object
         }
         private UserDAO() { }
 
-        public UserDTO CheckLogin(string Username, string Password)
+        public UserDTO CheckLogin(string Username)
         {
             UserDTO user = null;
             string SQL = "SELECT u.usr_name, u.psw, u.phone FROM dbo.users u\n" +
-                "WHERE u.usr_name = @Username AND u.psw = @Password";
+                "WHERE u.usr_name = @Username";
             SqlCommand cmd = new SqlCommand(SQL, conn);
             cmd.Parameters.AddWithValue("@Username", Username);
-            cmd.Parameters.AddWithValue("@Password", Password);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
@@ -54,6 +53,34 @@ namespace Data_Access_Object
             return user;
         }
         //TODO: write code here
+
+        public UserDTO GetUser(string Username, string Phone)
+        {
+            UserDTO user = null;
+            string SQL = "SELECT u.usr_name, u.psw, u.phone FROM dbo.users u\n" +
+                "WHERE u.usr_name = @Username AND u.phone = @Phone";
+            SqlCommand cmd = new SqlCommand(SQL, conn);
+            cmd.Parameters.AddWithValue("@Username", Username);
+            cmd.Parameters.AddWithValue("@Phone", Phone);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            try
+            {
+                foreach (DataRow item in dt.Rows)
+                {
+                    user = new UserDTO(item.ItemArray.GetValue(0).ToString(),
+                        item.ItemArray.GetValue(1).ToString(),
+                        item.ItemArray.GetValue(2).ToString());
+                }
+            }
+            catch
+            {
+                user = null;
+            }
+            conn.Close();
+            return user;
+        }
 
         public void CreateUser(string Username, string Password, string Phone)
         {

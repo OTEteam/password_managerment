@@ -86,5 +86,24 @@ namespace Password_Manager
                 errorProvider.Clear();
             }
         }
+
+        private void txtOlderPsw_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtOlderPsw.Text != user.Password)
+            {
+                errorProvider.SetError(txtOlderPsw, "Mật khẩu không khớp");
+                accept[0] = false;
+            }
+            else
+            {
+                accept[0] = true;
+                errorProvider.Clear();
+            }
+        }
+
+        private void txtOlderPsw_TextChange(object sender, EventArgs e)
+        {
+            txtOlderPsw.UseSystemPasswordChar = true;
+        }
     }
 }

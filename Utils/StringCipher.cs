@@ -17,6 +17,10 @@ namespace Utils
         // This constant determines the number of iterations for the password bytes generation function.
         private const int DerivationIterations = 1000;
 
+        private const string defaultPsw = "XIS57QFPNXIB7F2C3L6D1V5788LH35RVN8OKVND6U683IOPH8LW1UTJ985T9T6JJT4PJTD11UUD6ZTT8DZ1YLSKUF70BYFHJP8AUX0NKQWNIO61694KC0HYWBF9WWJQE";
+
+        public static string DefaultPsw => defaultPsw;
+
         public static string Encrypt(string plainText, string passPhrase)
         {
             // Salt and IV is randomly generated each time, but is preprended to encrypted cipher text

@@ -124,7 +124,7 @@ namespace Password_Manager
                                                     row.Cells[6].Value.ToString(),
                                                     row.Cells[7].Value.ToString(),
                                                     user.Username);
-                frmEdit frmEdit = new frmEdit(account, user);
+                frmEdit2 frmEdit = new frmEdit2(account, user);
                 frmEdit.ShowDialog();
                 loadAccount();
             }
@@ -134,6 +134,12 @@ namespace Password_Manager
         {
             frmMaster2 frmMaster = new frmMaster2(dtAccounts, user);
             frmMaster.ShowDialog();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+            Environment.Exit(0);
         }
     }
 }

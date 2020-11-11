@@ -53,7 +53,7 @@ namespace Password_Manager
         private void linkForgotPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmOTP otp = new frmOTP();
-            otp.Show();
+            otp.ShowDialog();
         }
 
         private void bunifuTextBox4_TextChanged(object sender, EventArgs e)
@@ -83,7 +83,7 @@ namespace Password_Manager
             else
             {
                 this.Hide();
-                frmManagement frm = new frmManagement(user);
+                frmManagement2 frm = new frmManagement2(user);
                 frm.Show();
             }
         }
@@ -98,6 +98,8 @@ namespace Password_Manager
                 try
                 {
                     FrmManagementLogic.Instance.CreateUser(username, password, phone);
+                    MessageBox.Show(this, "Tạo tài khoản thành công", "Thông báo");
+                    bunifuPages1.SetPage(0);
                 }
                 catch (Exception ex)
                 {
@@ -179,6 +181,11 @@ namespace Password_Manager
                 accept[3] = true;
                 errorProvider.Clear();
             }
+        }
+
+        private void chkPolicy_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
+        {
+            btnAccountRegister.Enabled = chkPolicy.Checked;
         }
     }
 }

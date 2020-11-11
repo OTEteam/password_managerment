@@ -144,7 +144,8 @@
             this.bunifuPages1.Controls.Add(this.tabPage1);
             this.bunifuPages1.Controls.Add(this.tabPage2);
             this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuPages1.Location = new System.Drawing.Point(401, 0);
+            this.bunifuPages1.Location = new System.Drawing.Point(602, 0);
+            this.bunifuPages1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
             this.bunifuPages1.Page = this.tabPage2;
@@ -152,7 +153,7 @@
             this.bunifuPages1.PageName = "tabPage2";
             this.bunifuPages1.PageTitle = "đăng ký";
             this.bunifuPages1.SelectedIndex = 0;
-            this.bunifuPages1.Size = new System.Drawing.Size(423, 527);
+            this.bunifuPages1.Size = new System.Drawing.Size(634, 811);
             this.bunifuPages1.TabIndex = 1;
             animation1.AnimateOnlyDifferences = true;
             animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
@@ -182,18 +183,20 @@
             this.tabPage1.Controls.Add(this.txtLoginAccount);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(415, 501);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage1.Size = new System.Drawing.Size(626, 778);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "đăng_nhập";
             // 
             // linkForgotPassword
             // 
             this.linkForgotPassword.AutoSize = true;
-            this.linkForgotPassword.Location = new System.Drawing.Point(88, 322);
+            this.linkForgotPassword.Location = new System.Drawing.Point(132, 495);
+            this.linkForgotPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkForgotPassword.Name = "linkForgotPassword";
-            this.linkForgotPassword.Size = new System.Drawing.Size(86, 13);
+            this.linkForgotPassword.Size = new System.Drawing.Size(127, 20);
             this.linkForgotPassword.TabIndex = 5;
             this.linkForgotPassword.TabStop = true;
             this.linkForgotPassword.Text = "Quên mật khẩu?";
@@ -208,10 +211,11 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.Silver;
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(63, 183);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(94, 282);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(299, 15);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(448, 23);
             this.bunifuSeparator1.TabIndex = 4;
             // 
             // btnLoginAccount
@@ -261,7 +265,8 @@
             this.btnLoginAccount.IdleIconLeftImage = null;
             this.btnLoginAccount.IdleIconRightImage = null;
             this.btnLoginAccount.IndicateFocus = false;
-            this.btnLoginAccount.Location = new System.Drawing.Point(134, 354);
+            this.btnLoginAccount.Location = new System.Drawing.Point(201, 545);
+            this.btnLoginAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLoginAccount.Name = "btnLoginAccount";
             this.btnLoginAccount.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnLoginAccount.OnDisabledState.BorderRadius = 35;
@@ -295,7 +300,7 @@
             this.btnLoginAccount.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnLoginAccount.OnPressedState.IconLeftImage = null;
             this.btnLoginAccount.OnPressedState.IconRightImage = null;
-            this.btnLoginAccount.Size = new System.Drawing.Size(159, 46);
+            this.btnLoginAccount.Size = new System.Drawing.Size(238, 71);
             this.btnLoginAccount.TabIndex = 3;
             this.btnLoginAccount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLoginAccount.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -331,9 +336,10 @@
             this.txtLoginPassword.IconRight = null;
             this.txtLoginPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLoginPassword.Lines = new string[0];
-            this.txtLoginPassword.Location = new System.Drawing.Point(88, 278);
+            this.txtLoginPassword.Location = new System.Drawing.Point(132, 428);
+            this.txtLoginPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLoginPassword.MaxLength = 32767;
-            this.txtLoginPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtLoginPassword.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtLoginPassword.Modified = false;
             this.txtLoginPassword.Multiline = false;
             this.txtLoginPassword.Name = "txtLoginPassword";
@@ -357,7 +363,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtLoginPassword.OnIdleState = stateProperties4;
-            this.txtLoginPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txtLoginPassword.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLoginPassword.PasswordChar = '\0';
             this.txtLoginPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtLoginPassword.PlaceholderText = "Nhập mật khẩu";
@@ -367,7 +373,7 @@
             this.txtLoginPassword.SelectionLength = 0;
             this.txtLoginPassword.SelectionStart = 0;
             this.txtLoginPassword.ShortcutsEnabled = true;
-            this.txtLoginPassword.Size = new System.Drawing.Size(260, 37);
+            this.txtLoginPassword.Size = new System.Drawing.Size(390, 57);
             this.txtLoginPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtLoginPassword.TabIndex = 2;
             this.txtLoginPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -406,9 +412,10 @@
             this.txtLoginAccount.IconRight = null;
             this.txtLoginAccount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLoginAccount.Lines = new string[0];
-            this.txtLoginAccount.Location = new System.Drawing.Point(88, 222);
+            this.txtLoginAccount.Location = new System.Drawing.Point(132, 342);
+            this.txtLoginAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLoginAccount.MaxLength = 32767;
-            this.txtLoginAccount.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtLoginAccount.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtLoginAccount.Modified = false;
             this.txtLoginAccount.Multiline = false;
             this.txtLoginAccount.Name = "txtLoginAccount";
@@ -432,7 +439,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtLoginAccount.OnIdleState = stateProperties8;
-            this.txtLoginAccount.Padding = new System.Windows.Forms.Padding(3);
+            this.txtLoginAccount.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLoginAccount.PasswordChar = '\0';
             this.txtLoginAccount.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtLoginAccount.PlaceholderText = "Nhập tài khoản";
@@ -442,7 +449,7 @@
             this.txtLoginAccount.SelectionLength = 0;
             this.txtLoginAccount.SelectionStart = 0;
             this.txtLoginAccount.ShortcutsEnabled = true;
-            this.txtLoginAccount.Size = new System.Drawing.Size(260, 37);
+            this.txtLoginAccount.Size = new System.Drawing.Size(390, 57);
             this.txtLoginAccount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtLoginAccount.TabIndex = 1;
             this.txtLoginAccount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -459,9 +466,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(124, 132);
+            this.label3.Location = new System.Drawing.Point(186, 203);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 34);
+            this.label3.Size = new System.Drawing.Size(254, 51);
             this.label3.TabIndex = 0;
             this.label3.Text = "Đăng Nhập";
             // 
@@ -479,9 +487,10 @@
             this.tabPage2.Controls.Add(this.txtRegisterPassword);
             this.tabPage2.Controls.Add(this.txtRegisterAccount);
             this.tabPage2.Location = new System.Drawing.Point(4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(415, 501);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage2.Size = new System.Drawing.Size(626, 778);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "đăng ký";
             // 
@@ -513,6 +522,7 @@
             this.btnAccountRegister.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAccountRegister.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.btnAccountRegister.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btnAccountRegister.Enabled = false;
             this.btnAccountRegister.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.btnAccountRegister.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAccountRegister.ForeColor = System.Drawing.Color.SeaGreen;
@@ -532,7 +542,8 @@
             this.btnAccountRegister.IdleIconLeftImage = null;
             this.btnAccountRegister.IdleIconRightImage = null;
             this.btnAccountRegister.IndicateFocus = false;
-            this.btnAccountRegister.Location = new System.Drawing.Point(144, 400);
+            this.btnAccountRegister.Location = new System.Drawing.Point(216, 615);
+            this.btnAccountRegister.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAccountRegister.Name = "btnAccountRegister";
             this.btnAccountRegister.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnAccountRegister.OnDisabledState.BorderRadius = 35;
@@ -566,7 +577,7 @@
             this.btnAccountRegister.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnAccountRegister.OnPressedState.IconLeftImage = null;
             this.btnAccountRegister.OnPressedState.IconRightImage = null;
-            this.btnAccountRegister.Size = new System.Drawing.Size(160, 49);
+            this.btnAccountRegister.Size = new System.Drawing.Size(240, 75);
             this.btnAccountRegister.TabIndex = 9;
             this.btnAccountRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnAccountRegister.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -578,18 +589,20 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(119, 372);
+            this.label5.Location = new System.Drawing.Point(178, 572);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(206, 13);
+            this.label5.Size = new System.Drawing.Size(290, 20);
             this.label5.TabIndex = 8;
             this.label5.Text = "Tôi đã đọc và đồng ý với điều khoản trên";
             // 
             // linkPolicy
             // 
             this.linkPolicy.AutoSize = true;
-            this.linkPolicy.Location = new System.Drawing.Point(93, 349);
+            this.linkPolicy.Location = new System.Drawing.Point(140, 537);
+            this.linkPolicy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkPolicy.Name = "linkPolicy";
-            this.linkPolicy.Size = new System.Drawing.Size(103, 13);
+            this.linkPolicy.Size = new System.Drawing.Size(151, 20);
             this.linkPolicy.TabIndex = 6;
             this.linkPolicy.TabStop = true;
             this.linkPolicy.Text = "Điều khoản sử dụng";
@@ -599,9 +612,10 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(149, 61);
+            this.label4.Location = new System.Drawing.Point(224, 94);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 34);
+            this.label4.Size = new System.Drawing.Size(200, 51);
             this.label4.TabIndex = 0;
             this.label4.Text = "Đăng Ký";
             // 
@@ -623,8 +637,9 @@
             this.chkPolicy.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Unchecked;
             this.chkPolicy.Cursor = System.Windows.Forms.Cursors.Default;
             this.chkPolicy.CustomCheckmarkImage = null;
-            this.chkPolicy.Location = new System.Drawing.Point(96, 368);
-            this.chkPolicy.MinimumSize = new System.Drawing.Size(17, 17);
+            this.chkPolicy.Location = new System.Drawing.Point(144, 566);
+            this.chkPolicy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.chkPolicy.MinimumSize = new System.Drawing.Size(26, 26);
             this.chkPolicy.Name = "chkPolicy";
             this.chkPolicy.OnCheck.BorderColor = System.Drawing.Color.DodgerBlue;
             this.chkPolicy.OnCheck.BorderRadius = 12;
@@ -652,11 +667,12 @@
             this.chkPolicy.OnUncheck.BorderRadius = 12;
             this.chkPolicy.OnUncheck.BorderThickness = 1;
             this.chkPolicy.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.chkPolicy.Size = new System.Drawing.Size(21, 21);
+            this.chkPolicy.Size = new System.Drawing.Size(32, 32);
             this.chkPolicy.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
             this.chkPolicy.TabIndex = 7;
             this.chkPolicy.ThreeState = false;
             this.chkPolicy.ToolTipText = null;
+            this.chkPolicy.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs>(this.chkPolicy_CheckedChanged);
             // 
             // bunifuSeparator2
             // 
@@ -667,10 +683,11 @@
             this.bunifuSeparator2.LineColor = System.Drawing.Color.Silver;
             this.bunifuSeparator2.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator2.LineThickness = 1;
-            this.bunifuSeparator2.Location = new System.Drawing.Point(68, 111);
+            this.bunifuSeparator2.Location = new System.Drawing.Point(102, 171);
+            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuSeparator2.Name = "bunifuSeparator2";
             this.bunifuSeparator2.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator2.Size = new System.Drawing.Size(300, 14);
+            this.bunifuSeparator2.Size = new System.Drawing.Size(450, 22);
             this.bunifuSeparator2.TabIndex = 5;
             // 
             // txtRegisterPhoneNumber
@@ -700,9 +717,10 @@
             this.txtRegisterPhoneNumber.IconRight = null;
             this.txtRegisterPhoneNumber.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRegisterPhoneNumber.Lines = new string[0];
-            this.txtRegisterPhoneNumber.Location = new System.Drawing.Point(96, 294);
+            this.txtRegisterPhoneNumber.Location = new System.Drawing.Point(144, 452);
+            this.txtRegisterPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtRegisterPhoneNumber.MaxLength = 32767;
-            this.txtRegisterPhoneNumber.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtRegisterPhoneNumber.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtRegisterPhoneNumber.Modified = false;
             this.txtRegisterPhoneNumber.Multiline = false;
             this.txtRegisterPhoneNumber.Name = "txtRegisterPhoneNumber";
@@ -726,7 +744,7 @@
             stateProperties12.ForeColor = System.Drawing.Color.Empty;
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtRegisterPhoneNumber.OnIdleState = stateProperties12;
-            this.txtRegisterPhoneNumber.Padding = new System.Windows.Forms.Padding(3);
+            this.txtRegisterPhoneNumber.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtRegisterPhoneNumber.PasswordChar = '\0';
             this.txtRegisterPhoneNumber.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtRegisterPhoneNumber.PlaceholderText = "Số điện thoại";
@@ -736,7 +754,7 @@
             this.txtRegisterPhoneNumber.SelectionLength = 0;
             this.txtRegisterPhoneNumber.SelectionStart = 0;
             this.txtRegisterPhoneNumber.ShortcutsEnabled = true;
-            this.txtRegisterPhoneNumber.Size = new System.Drawing.Size(260, 37);
+            this.txtRegisterPhoneNumber.Size = new System.Drawing.Size(390, 57);
             this.txtRegisterPhoneNumber.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtRegisterPhoneNumber.TabIndex = 4;
             this.txtRegisterPhoneNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -775,9 +793,10 @@
             this.txtConfirmRegisterPassword.IconRight = null;
             this.txtConfirmRegisterPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtConfirmRegisterPassword.Lines = new string[0];
-            this.txtConfirmRegisterPassword.Location = new System.Drawing.Point(96, 237);
+            this.txtConfirmRegisterPassword.Location = new System.Drawing.Point(144, 365);
+            this.txtConfirmRegisterPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtConfirmRegisterPassword.MaxLength = 32767;
-            this.txtConfirmRegisterPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtConfirmRegisterPassword.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtConfirmRegisterPassword.Modified = false;
             this.txtConfirmRegisterPassword.Multiline = false;
             this.txtConfirmRegisterPassword.Name = "txtConfirmRegisterPassword";
@@ -801,7 +820,7 @@
             stateProperties16.ForeColor = System.Drawing.Color.Empty;
             stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtConfirmRegisterPassword.OnIdleState = stateProperties16;
-            this.txtConfirmRegisterPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txtConfirmRegisterPassword.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtConfirmRegisterPassword.PasswordChar = '\0';
             this.txtConfirmRegisterPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtConfirmRegisterPassword.PlaceholderText = "Xác nhận mật khẩu";
@@ -811,7 +830,7 @@
             this.txtConfirmRegisterPassword.SelectionLength = 0;
             this.txtConfirmRegisterPassword.SelectionStart = 0;
             this.txtConfirmRegisterPassword.ShortcutsEnabled = true;
-            this.txtConfirmRegisterPassword.Size = new System.Drawing.Size(260, 37);
+            this.txtConfirmRegisterPassword.Size = new System.Drawing.Size(390, 57);
             this.txtConfirmRegisterPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtConfirmRegisterPassword.TabIndex = 3;
             this.txtConfirmRegisterPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -851,9 +870,10 @@
             this.txtRegisterPassword.IconRight = null;
             this.txtRegisterPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRegisterPassword.Lines = new string[0];
-            this.txtRegisterPassword.Location = new System.Drawing.Point(96, 185);
+            this.txtRegisterPassword.Location = new System.Drawing.Point(144, 285);
+            this.txtRegisterPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtRegisterPassword.MaxLength = 32767;
-            this.txtRegisterPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtRegisterPassword.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtRegisterPassword.Modified = false;
             this.txtRegisterPassword.Multiline = false;
             this.txtRegisterPassword.Name = "txtRegisterPassword";
@@ -877,7 +897,7 @@
             stateProperties20.ForeColor = System.Drawing.Color.Empty;
             stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtRegisterPassword.OnIdleState = stateProperties20;
-            this.txtRegisterPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txtRegisterPassword.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtRegisterPassword.PasswordChar = '\0';
             this.txtRegisterPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtRegisterPassword.PlaceholderText = "Mật khẩu";
@@ -887,7 +907,7 @@
             this.txtRegisterPassword.SelectionLength = 0;
             this.txtRegisterPassword.SelectionStart = 0;
             this.txtRegisterPassword.ShortcutsEnabled = true;
-            this.txtRegisterPassword.Size = new System.Drawing.Size(260, 37);
+            this.txtRegisterPassword.Size = new System.Drawing.Size(390, 57);
             this.txtRegisterPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtRegisterPassword.TabIndex = 2;
             this.txtRegisterPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -927,9 +947,10 @@
             this.txtRegisterAccount.IconRight = null;
             this.txtRegisterAccount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRegisterAccount.Lines = new string[0];
-            this.txtRegisterAccount.Location = new System.Drawing.Point(96, 131);
+            this.txtRegisterAccount.Location = new System.Drawing.Point(144, 202);
+            this.txtRegisterAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtRegisterAccount.MaxLength = 32767;
-            this.txtRegisterAccount.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtRegisterAccount.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtRegisterAccount.Modified = false;
             this.txtRegisterAccount.Multiline = false;
             this.txtRegisterAccount.Name = "txtRegisterAccount";
@@ -953,7 +974,7 @@
             stateProperties24.ForeColor = System.Drawing.Color.Empty;
             stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtRegisterAccount.OnIdleState = stateProperties24;
-            this.txtRegisterAccount.Padding = new System.Windows.Forms.Padding(3);
+            this.txtRegisterAccount.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtRegisterAccount.PasswordChar = '\0';
             this.txtRegisterAccount.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtRegisterAccount.PlaceholderText = "Tài khoản";
@@ -963,7 +984,7 @@
             this.txtRegisterAccount.SelectionLength = 0;
             this.txtRegisterAccount.SelectionStart = 0;
             this.txtRegisterAccount.ShortcutsEnabled = true;
-            this.txtRegisterAccount.Size = new System.Drawing.Size(260, 37);
+            this.txtRegisterAccount.Size = new System.Drawing.Size(390, 57);
             this.txtRegisterAccount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtRegisterAccount.TabIndex = 1;
             this.txtRegisterAccount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -999,10 +1020,9 @@
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(401, 527);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(602, 811);
             this.bunifuGradientPanel1.TabIndex = 0;
             this.bunifuGradientPanel1.Click += new System.EventHandler(this.bunifuGradientPanel1_Click);
             // 
@@ -1012,9 +1032,10 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.label6.Location = new System.Drawing.Point(127, 448);
+            this.label6.Location = new System.Drawing.Point(190, 689);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(183, 17);
+            this.label6.Size = new System.Drawing.Size(289, 28);
             this.label6.TabIndex = 5;
             this.label6.Text = "Copyright by codezooteam";
             // 
@@ -1022,9 +1043,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(96, 445);
+            this.pictureBox2.Location = new System.Drawing.Point(144, 685);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 24);
+            this.pictureBox2.Size = new System.Drawing.Size(46, 37);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -1076,7 +1098,8 @@
             this.btnRegisterPage.IdleIconLeftImage = null;
             this.btnRegisterPage.IdleIconRightImage = null;
             this.btnRegisterPage.IndicateFocus = false;
-            this.btnRegisterPage.Location = new System.Drawing.Point(205, 372);
+            this.btnRegisterPage.Location = new System.Drawing.Point(308, 572);
+            this.btnRegisterPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRegisterPage.Name = "btnRegisterPage";
             this.btnRegisterPage.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnRegisterPage.OnDisabledState.BorderRadius = 35;
@@ -1110,7 +1133,7 @@
             this.btnRegisterPage.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnRegisterPage.OnPressedState.IconLeftImage = null;
             this.btnRegisterPage.OnPressedState.IconRightImage = null;
-            this.btnRegisterPage.Size = new System.Drawing.Size(156, 43);
+            this.btnRegisterPage.Size = new System.Drawing.Size(234, 66);
             this.btnRegisterPage.TabIndex = 3;
             this.btnRegisterPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnRegisterPage.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1166,7 +1189,8 @@
             this.btnLoginPage.IdleIconLeftImage = null;
             this.btnLoginPage.IdleIconRightImage = null;
             this.btnLoginPage.IndicateFocus = false;
-            this.btnLoginPage.Location = new System.Drawing.Point(28, 372);
+            this.btnLoginPage.Location = new System.Drawing.Point(42, 572);
+            this.btnLoginPage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLoginPage.Name = "btnLoginPage";
             this.btnLoginPage.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnLoginPage.OnDisabledState.BorderRadius = 35;
@@ -1200,7 +1224,7 @@
             this.btnLoginPage.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnLoginPage.OnPressedState.IconLeftImage = null;
             this.btnLoginPage.OnPressedState.IconRightImage = null;
-            this.btnLoginPage.Size = new System.Drawing.Size(156, 43);
+            this.btnLoginPage.Size = new System.Drawing.Size(234, 66);
             this.btnLoginPage.TabIndex = 2;
             this.btnLoginPage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnLoginPage.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1213,9 +1237,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(134, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(201, 74);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(131, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(196, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -1224,9 +1249,10 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(74, 226);
+            this.label2.Location = new System.Drawing.Point(111, 348);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(248, 109);
+            this.label2.Size = new System.Drawing.Size(372, 168);
             this.label2.TabIndex = 0;
             this.label2.Text = "Phần mềm quản lý mật khẩu";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1236,21 +1262,21 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(128, 168);
+            this.label1.Location = new System.Drawing.Point(192, 258);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 34);
+            this.label1.Size = new System.Drawing.Size(212, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xin Chào";
             // 
             // frmLoginandRegister
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 527);
+            this.ClientSize = new System.Drawing.Size(1236, 811);
             this.Controls.Add(this.bunifuPages1);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmLoginandRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập và Đăng ký";

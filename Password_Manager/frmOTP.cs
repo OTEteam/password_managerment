@@ -131,5 +131,15 @@ namespace Password_Manager
             timer1.Start();
             btnResendOTP.Enabled = false;
         }
+
+        private void txtNewPsw_TextChange(object sender, EventArgs e)
+        {
+            txtNewPsw.UseSystemPasswordChar = txtNewPsw.Text.Length != 0;
+        }
+
+        private void txtConfirmPsw_TextChange(object sender, EventArgs e)
+        {
+            txtConfirmPsw.UseSystemPasswordChar = txtConfirmPsw.Text.Length != 0;
+        }
     }
 }

@@ -75,7 +75,7 @@ namespace Password_Manager
         {
             string username = txtLoginAccount.Text;
             string password = txtLoginPassword.Text;
-            UserDTO user = FrmManagementLogic.Instance.CheckLogin(username, password);
+            UserDTO user = FrmLoginLogic.Instance.CheckLogin(username, password);
             if (user == null)
             {
                 MessageBox.Show("Invalid ID or Password\nPlease Try Again");
@@ -97,7 +97,7 @@ namespace Password_Manager
                 string phone = txtRegisterPhoneNumber.Text;
                 try
                 {
-                    FrmManagementLogic.Instance.CreateUser(username, password, phone);
+                    FrmLoginLogic.Instance.CreateUser(username, password, phone);
                     MessageBox.Show(this, "Tạo tài khoản thành công", "Thông báo");
                     bunifuPages1.SetPage(0);
                 }

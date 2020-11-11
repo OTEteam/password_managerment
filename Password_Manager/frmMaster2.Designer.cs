@@ -69,10 +69,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(837, 155);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(558, 101);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(326, 51);
+            this.label3.Size = new System.Drawing.Size(217, 34);
             this.label3.TabIndex = 20;
             this.label3.Text = "Đổi MasterKey";
             // 
@@ -85,11 +84,11 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.Silver;
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(756, 228);
-            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(504, 148);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(508, 23);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(339, 15);
             this.bunifuSeparator1.TabIndex = 28;
             // 
             // btnExit
@@ -139,8 +138,7 @@
             this.btnExit.IdleIconLeftImage = null;
             this.btnExit.IdleIconRightImage = null;
             this.btnExit.IndicateFocus = false;
-            this.btnExit.Location = new System.Drawing.Point(1010, 614);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnExit.Location = new System.Drawing.Point(673, 399);
             this.btnExit.Name = "btnExit";
             this.btnExit.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnExit.OnDisabledState.BorderRadius = 35;
@@ -174,7 +172,7 @@
             this.btnExit.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnExit.OnPressedState.IconLeftImage = null;
             this.btnExit.OnPressedState.IconRightImage = null;
-            this.btnExit.Size = new System.Drawing.Size(214, 71);
+            this.btnExit.Size = new System.Drawing.Size(143, 46);
             this.btnExit.TabIndex = 26;
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnExit.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -229,8 +227,7 @@
             this.btnChangePassword.IdleIconLeftImage = null;
             this.btnChangePassword.IdleIconRightImage = null;
             this.btnChangePassword.IndicateFocus = false;
-            this.btnChangePassword.Location = new System.Drawing.Point(782, 614);
-            this.btnChangePassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnChangePassword.Location = new System.Drawing.Point(521, 399);
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnChangePassword.OnDisabledState.BorderRadius = 35;
@@ -264,7 +261,7 @@
             this.btnChangePassword.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnChangePassword.OnPressedState.IconLeftImage = null;
             this.btnChangePassword.OnPressedState.IconRightImage = null;
-            this.btnChangePassword.Size = new System.Drawing.Size(207, 71);
+            this.btnChangePassword.Size = new System.Drawing.Size(138, 46);
             this.btnChangePassword.TabIndex = 27;
             this.btnChangePassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnChangePassword.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -300,10 +297,9 @@
             this.txtConfirmNewPassword.IconRight = null;
             this.txtConfirmNewPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtConfirmNewPassword.Lines = new string[0];
-            this.txtConfirmNewPassword.Location = new System.Drawing.Point(796, 446);
-            this.txtConfirmNewPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtConfirmNewPassword.Location = new System.Drawing.Point(531, 290);
             this.txtConfirmNewPassword.MaxLength = 32767;
-            this.txtConfirmNewPassword.MinimumSize = new System.Drawing.Size(2, 2);
+            this.txtConfirmNewPassword.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtConfirmNewPassword.Modified = false;
             this.txtConfirmNewPassword.Multiline = false;
             this.txtConfirmNewPassword.Name = "txtConfirmNewPassword";
@@ -327,7 +323,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtConfirmNewPassword.OnIdleState = stateProperties4;
-            this.txtConfirmNewPassword.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtConfirmNewPassword.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtConfirmNewPassword.PasswordChar = '\0';
             this.txtConfirmNewPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtConfirmNewPassword.PlaceholderText = "Xác nhận mật khẩu";
@@ -337,7 +333,7 @@
             this.txtConfirmNewPassword.SelectionLength = 0;
             this.txtConfirmNewPassword.SelectionStart = 0;
             this.txtConfirmNewPassword.ShortcutsEnabled = true;
-            this.txtConfirmNewPassword.Size = new System.Drawing.Size(442, 68);
+            this.txtConfirmNewPassword.Size = new System.Drawing.Size(295, 44);
             this.txtConfirmNewPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtConfirmNewPassword.TabIndex = 23;
             this.txtConfirmNewPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -368,9 +364,10 @@
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(722, 755);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(481, 491);
             this.bunifuGradientPanel1.TabIndex = 19;
             // 
             // label6
@@ -378,10 +375,9 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(190, 689);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(127, 448);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(289, 28);
+            this.label6.Size = new System.Drawing.Size(183, 17);
             this.label6.TabIndex = 5;
             this.label6.Text = "Copyright by codezooteam";
             // 
@@ -389,10 +385,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(144, 685);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(96, 445);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 37);
+            this.pictureBox2.Size = new System.Drawing.Size(31, 24);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -401,10 +396,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(201, 74);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(134, 48);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(196, 154);
+            this.pictureBox1.Size = new System.Drawing.Size(131, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -413,10 +407,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(111, 348);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(74, 226);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(386, 285);
+            this.label2.Size = new System.Drawing.Size(257, 185);
             this.label2.TabIndex = 0;
             this.label2.Text = "Phần mềm quản lý mật khẩu";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -426,10 +419,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(192, 258);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(128, 168);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 51);
+            this.label1.Size = new System.Drawing.Size(141, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xin Chào";
             // 
@@ -460,10 +452,9 @@
             this.txtNewPassword.IconRight = null;
             this.txtNewPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtNewPassword.Lines = new string[0];
-            this.txtNewPassword.Location = new System.Drawing.Point(796, 368);
-            this.txtNewPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNewPassword.Location = new System.Drawing.Point(531, 239);
             this.txtNewPassword.MaxLength = 32767;
-            this.txtNewPassword.MinimumSize = new System.Drawing.Size(2, 2);
+            this.txtNewPassword.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtNewPassword.Modified = false;
             this.txtNewPassword.Multiline = false;
             this.txtNewPassword.Name = "txtNewPassword";
@@ -487,7 +478,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtNewPassword.OnIdleState = stateProperties8;
-            this.txtNewPassword.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNewPassword.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtNewPassword.PasswordChar = '\0';
             this.txtNewPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtNewPassword.PlaceholderText = "Nhập mật khẩu mới";
@@ -497,7 +488,7 @@
             this.txtNewPassword.SelectionLength = 0;
             this.txtNewPassword.SelectionStart = 0;
             this.txtNewPassword.ShortcutsEnabled = true;
-            this.txtNewPassword.Size = new System.Drawing.Size(442, 68);
+            this.txtNewPassword.Size = new System.Drawing.Size(295, 44);
             this.txtNewPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtNewPassword.TabIndex = 23;
             this.txtNewPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -541,10 +532,9 @@
             this.txtOlderPsw.IconRight = null;
             this.txtOlderPsw.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtOlderPsw.Lines = new string[0];
-            this.txtOlderPsw.Location = new System.Drawing.Point(796, 290);
-            this.txtOlderPsw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtOlderPsw.Location = new System.Drawing.Point(531, 188);
             this.txtOlderPsw.MaxLength = 32767;
-            this.txtOlderPsw.MinimumSize = new System.Drawing.Size(2, 2);
+            this.txtOlderPsw.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtOlderPsw.Modified = false;
             this.txtOlderPsw.Multiline = false;
             this.txtOlderPsw.Name = "txtOlderPsw";
@@ -568,7 +558,7 @@
             stateProperties12.ForeColor = System.Drawing.Color.Empty;
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtOlderPsw.OnIdleState = stateProperties12;
-            this.txtOlderPsw.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtOlderPsw.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.txtOlderPsw.PasswordChar = '\0';
             this.txtOlderPsw.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtOlderPsw.PlaceholderText = "Nhập mật khẩu cũ";
@@ -578,7 +568,7 @@
             this.txtOlderPsw.SelectionLength = 0;
             this.txtOlderPsw.SelectionStart = 0;
             this.txtOlderPsw.ShortcutsEnabled = true;
-            this.txtOlderPsw.Size = new System.Drawing.Size(442, 68);
+            this.txtOlderPsw.Size = new System.Drawing.Size(295, 44);
             this.txtOlderPsw.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtOlderPsw.TabIndex = 23;
             this.txtOlderPsw.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -594,9 +584,9 @@
             // 
             // frmMaster2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1295, 755);
+            this.ClientSize = new System.Drawing.Size(863, 491);
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnChangePassword);
@@ -606,7 +596,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "frmMaster2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMaster2";

@@ -24,21 +24,7 @@ namespace Password_Manager
             InitializeComponent();
         }
 
-        private void SendOtp(string phone)
-        {
-            Random rand = new Random();
-            otp = rand.Next(100000, 999999).ToString();
-            string accountSid = "AC968a9be5608a4e80f36eba3e512e1e42";
-            string authToken = "9e3d4151187dfc015620abbf2ad8bd12";
-
-            TwilioClient.Init(accountSid, authToken);
-
-            var message = MessageResource.Create(
-                body: "your code is: " + otp,
-                from: new Twilio.Types.PhoneNumber("+12569608438"),
-                to: new Twilio.Types.PhoneNumber(phone)
-            );
-        }
+        
 
         private void btnConfirmOTP_Click(object sender, EventArgs e)
         {
@@ -60,14 +46,15 @@ namespace Password_Manager
 
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
-            UserDTO user = FrmManagementLogic.Instance.GetUser(txtUsername.Text, txtPhone.Text);
+            UserDTO user = FrmLoginLogic.Instance.GetUser(txtUsername.Text, txtPhone.Text);
             if (user == null)
             {
                 txtMsg.Text = "tài khoản và sđt không khớp";
             }
             else
             {
-                SendOtp("+84" + user.Phone.Substring(1));
+                string phone = "+84" + user.Phone.Substring(1);
+                otp = FrmOTPLogic.Instance.SendOtp(phone);
                 bunifuPanel1.Visible = false;
                 this.user = user;
             }

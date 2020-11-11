@@ -57,7 +57,7 @@ namespace Password_Manager
 
         private void btnCreateAccount_Click(object sender, EventArgs e)
         {
-            frmAccount frmAccount = new frmAccount(user);
+            frmAccount2 frmAccount = new frmAccount2(user);
             frmAccount.ShowDialog();
             loadAccount();
         }

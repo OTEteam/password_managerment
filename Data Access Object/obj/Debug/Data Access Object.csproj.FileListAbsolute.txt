@@ -43,3 +43,12 @@ F:\Code\PRN292\PasswordManagement_V4\Data Access Object\obj\Debug\Data Access Ob
 F:\Code\PRN292\PasswordManagement_V4\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
 F:\Code\PRN292\PasswordManagement_V4\Data Access Object\obj\Debug\Data Access Object.dll
 F:\Code\PRN292\PasswordManagement_V4\Data Access Object\obj\Debug\Data Access Object.pdb
+E:\Project\C#\Password_management\Data Access Object\bin\Debug\Data Access Object.dll
+E:\Project\C#\Password_management\Data Access Object\bin\Debug\Data Access Object.pdb
+E:\Project\C#\Password_management\Data Access Object\bin\Debug\Data Transfer Object.dll
+E:\Project\C#\Password_management\Data Access Object\bin\Debug\Data Transfer Object.pdb
+E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.csprojAssemblyReference.cache
+E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.csproj.CoreCompileInputs.cache
+E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
+E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.dll
+E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.pdb

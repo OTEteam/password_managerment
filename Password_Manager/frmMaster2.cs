@@ -44,7 +44,7 @@ namespace Password_Manager
             if (isAccept())
             {
                 string password = txtNewPassword.Text;
-                FrmManagementLogic.Instance.ChangePassword(user.Username, password);
+                FrmMasterLogic.Instance.ChangePassword(user.Username, password);
                 foreach (DataRow row in dataTable.Rows)
                 {
                     string website = StringCipher.Encrypt(row[1].ToString(), password);

@@ -141,5 +141,19 @@ namespace Password_Manager
             Application.Restart();
             Environment.Exit(0);
         }
+
+        private void dgvPasswordManager_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = dgvPasswordManager.Rows[e.RowIndex];
+            DataGridViewCheckBoxCell chk = (DataGridViewCheckBoxCell)row.Cells[3];
+            if (e.ColumnIndex == 3)
+            {
+                System.Windows.Forms.Clipboard.SetText(row.Cells[6].Value.ToString());
+            }
+            else if (e.ColumnIndex == 1 | e.ColumnIndex == 2)
+            {
+                System.Windows.Forms.Clipboard.SetText(row.Cells[e.ColumnIndex].Value.ToString());
+            }
+        }
     }
 }

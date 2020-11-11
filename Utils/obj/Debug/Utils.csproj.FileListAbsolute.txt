@@ -22,3 +22,9 @@ F:\Code\PRN292\PasswordManagement_V4\Utils\obj\Debug\Utils.csprojAssemblyReferen
 F:\Code\PRN292\PasswordManagement_V4\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
 F:\Code\PRN292\PasswordManagement_V4\Utils\obj\Debug\Utils.dll
 F:\Code\PRN292\PasswordManagement_V4\Utils\obj\Debug\Utils.pdb
+E:\Project\C#\Password_management\Utils\bin\Debug\Utils.dll
+E:\Project\C#\Password_management\Utils\bin\Debug\Utils.pdb
+E:\Project\C#\Password_management\Utils\obj\Debug\Utils.csprojAssemblyReference.cache
+E:\Project\C#\Password_management\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+E:\Project\C#\Password_management\Utils\obj\Debug\Utils.dll
+E:\Project\C#\Password_management\Utils\obj\Debug\Utils.pdb

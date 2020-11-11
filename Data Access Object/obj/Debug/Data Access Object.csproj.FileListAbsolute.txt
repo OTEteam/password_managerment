@@ -52,3 +52,12 @@ E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Objec
 E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
 E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.dll
 E:\Project\C#\Password_management\Data Access Object\obj\Debug\Data Access Object.pdb
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\bin\Debug\Data Access Object.dll
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\bin\Debug\Data Access Object.pdb
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\bin\Debug\Data Transfer Object.dll
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\bin\Debug\Data Transfer Object.pdb
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\obj\Debug\Data Access Object.csprojAssemblyReference.cache
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\obj\Debug\Data Access Object.csproj.CoreCompileInputs.cache
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\obj\Debug\Data Access Object.csproj.CopyComplete
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\obj\Debug\Data Access Object.dll
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Access Object\obj\Debug\Data Access Object.pdb

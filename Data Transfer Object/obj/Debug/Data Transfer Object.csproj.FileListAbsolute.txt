@@ -34,3 +34,9 @@ E:\Project\C#\Password_management\Data Transfer Object\obj\Debug\Data Transfer O
 E:\Project\C#\Password_management\Data Transfer Object\obj\Debug\Data Transfer Object.csproj.CoreCompileInputs.cache
 E:\Project\C#\Password_management\Data Transfer Object\obj\Debug\Data Transfer Object.dll
 E:\Project\C#\Password_management\Data Transfer Object\obj\Debug\Data Transfer Object.pdb
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Transfer Object\bin\Debug\Data Transfer Object.dll
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Transfer Object\bin\Debug\Data Transfer Object.pdb
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Transfer Object\obj\Debug\Data Transfer Object.csprojAssemblyReference.cache
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Transfer Object\obj\Debug\Data Transfer Object.csproj.CoreCompileInputs.cache
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Transfer Object\obj\Debug\Data Transfer Object.dll
+F:\Code\PRN292\C# Project\PasswordManagement_Release_v3\Data Transfer Object\obj\Debug\Data Transfer Object.pdb

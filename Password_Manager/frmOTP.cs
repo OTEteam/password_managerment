@@ -16,6 +16,7 @@ namespace Password_Manager
 {
     public partial class frmOTP : Form
     {
+        int time = 30;
         string otp;
         UserDTO user;
         DataTable dtAccounts;
@@ -56,6 +57,7 @@ namespace Password_Manager
                 string phone = "+84" + user.Phone.Substring(1);
                 otp = FrmOTPLogic.Instance.SendOtp(phone);
                 bunifuPanel1.Visible = false;
+                timer1.Start();
                 this.user = user;
             }
         }
@@ -102,6 +104,32 @@ namespace Password_Manager
                 Application.Restart();
                 Environment.Exit(0);
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            time--;
+            timer.Text = time.ToString();
+            if(time == 0)
+            {
+                timer1.Stop();
+                btnResendOTP.Enabled = true;
+            }
+        }
+
+        private void bunifuPanel1_VisibleChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnResendOTP_Click(object sender, EventArgs e)
+        {
+            string phone = "+84" + user.Phone.Substring(1);
+            otp = FrmOTPLogic.Instance.SendOtp(phone);
+            bunifuPanel1.Visible = false;
+            time = 30;
+            timer1.Start();
+            btnResendOTP.Enabled = false;
         }
     }
 }

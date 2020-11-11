@@ -29,7 +29,6 @@ namespace Password_Manager
 
         private void txtEditAccountPassword_TextChanged(object sender, EventArgs e)
         {
-            txtEditAccountPassword.UseSystemPasswordChar = true;
         }
 
         private void btnSaveAccount_Click(object sender, EventArgs e)
@@ -56,6 +55,11 @@ namespace Password_Manager
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void txtEditWebSite_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

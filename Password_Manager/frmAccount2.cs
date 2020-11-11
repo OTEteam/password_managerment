@@ -23,7 +23,6 @@ namespace Password_Manager
 
         private void txtCreateAccountPassword_TextChanged(object sender, EventArgs e)
         {
-            txtCreateAccount.UseSystemPasswordChar = true;
         }
 
         private void btnAddAccount_Click(object sender, EventArgs e)
@@ -36,6 +35,16 @@ namespace Password_Manager
             FrmManagementLogic.Instance.AddAccount(accountDTO);
             this.Hide();
             MessageBox.Show(this, "Tạo mới thành công", "Thông Báo");
+        }
+
+        private void txtCreateAccount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCreateWebsiteName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

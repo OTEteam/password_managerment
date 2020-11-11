@@ -47,7 +47,7 @@ namespace Password_Manager
 
         private void txtLoginPassword_TextChanged(object sender, EventArgs e)
         {
-            txtLoginPassword.UseSystemPasswordChar = true;
+            txtLoginPassword.UseSystemPasswordChar = txtLoginPassword.Text.Length != 0;
         }
 
         private void linkForgotPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -56,19 +56,9 @@ namespace Password_Manager
             otp.ShowDialog();
         }
 
-        private void bunifuTextBox4_TextChanged(object sender, EventArgs e)
-        {
-            txtRegisterPassword.UseSystemPasswordChar = true;
-        }
-
-        private void bunifuGradientPanel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtConfirmRegisterPassword_TextChanged(object sender, EventArgs e)
         {
-            txtConfirmRegisterPassword.UseSystemPasswordChar = true;
+            txtConfirmRegisterPassword.UseSystemPasswordChar = txtConfirmRegisterPassword.Text.Length != 0;
         }
 
         private void btnLoginAccount_Click(object sender, EventArgs e)
@@ -186,6 +176,11 @@ namespace Password_Manager
         private void chkPolicy_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
         {
             btnAccountRegister.Enabled = chkPolicy.Checked;
+        }
+
+        private void txtRegisterPassword_TextChanged(object sender, EventArgs e)
+        {
+            txtRegisterPassword.UseSystemPasswordChar = txtRegisterPassword.Text.Length != 0;
         }
     }
 }

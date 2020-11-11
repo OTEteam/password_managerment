@@ -76,9 +76,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(529, 48);
+            this.label3.Location = new System.Drawing.Point(794, 74);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(220, 34);
+            this.label3.Size = new System.Drawing.Size(331, 51);
             this.label3.TabIndex = 12;
             this.label3.Text = "Sửa Tài Khoản";
             // 
@@ -91,10 +92,11 @@
             this.bunifuSeparator1.LineColor = System.Drawing.Color.Silver;
             this.bunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(468, 85);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(702, 131);
+            this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator1.Size = new System.Drawing.Size(339, 15);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(508, 23);
             this.bunifuSeparator1.TabIndex = 18;
             // 
             // btnDelete
@@ -144,7 +146,8 @@
             this.btnDelete.IdleIconLeftImage = null;
             this.btnDelete.IdleIconRightImage = null;
             this.btnDelete.IndicateFocus = false;
-            this.btnDelete.Location = new System.Drawing.Point(708, 398);
+            this.btnDelete.Location = new System.Drawing.Point(1062, 612);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnDelete.OnDisabledState.BorderRadius = 35;
@@ -178,7 +181,7 @@
             this.btnDelete.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnDelete.OnPressedState.IconLeftImage = null;
             this.btnDelete.OnPressedState.IconRightImage = null;
-            this.btnDelete.Size = new System.Drawing.Size(99, 46);
+            this.btnDelete.Size = new System.Drawing.Size(148, 71);
             this.btnDelete.TabIndex = 17;
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnDelete.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -234,7 +237,8 @@
             this.btnExit.IdleIconLeftImage = null;
             this.btnExit.IdleIconRightImage = null;
             this.btnExit.IndicateFocus = false;
-            this.btnExit.Location = new System.Drawing.Point(599, 398);
+            this.btnExit.Location = new System.Drawing.Point(898, 612);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnExit.Name = "btnExit";
             this.btnExit.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnExit.OnDisabledState.BorderRadius = 35;
@@ -268,7 +272,7 @@
             this.btnExit.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnExit.OnPressedState.IconLeftImage = null;
             this.btnExit.OnPressedState.IconRightImage = null;
-            this.btnExit.Size = new System.Drawing.Size(99, 46);
+            this.btnExit.Size = new System.Drawing.Size(148, 71);
             this.btnExit.TabIndex = 17;
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnExit.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -324,7 +328,8 @@
             this.btnSaveAccount.IdleIconLeftImage = null;
             this.btnSaveAccount.IdleIconRightImage = null;
             this.btnSaveAccount.IndicateFocus = false;
-            this.btnSaveAccount.Location = new System.Drawing.Point(483, 398);
+            this.btnSaveAccount.Location = new System.Drawing.Point(724, 612);
+            this.btnSaveAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSaveAccount.Name = "btnSaveAccount";
             this.btnSaveAccount.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSaveAccount.OnDisabledState.BorderRadius = 35;
@@ -358,7 +363,7 @@
             this.btnSaveAccount.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnSaveAccount.OnPressedState.IconLeftImage = null;
             this.btnSaveAccount.OnPressedState.IconRightImage = null;
-            this.btnSaveAccount.Size = new System.Drawing.Size(99, 46);
+            this.btnSaveAccount.Size = new System.Drawing.Size(148, 71);
             this.btnSaveAccount.TabIndex = 17;
             this.btnSaveAccount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSaveAccount.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -394,11 +399,12 @@
             this.txtEditNote.IconRight = null;
             this.txtEditNote.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEditNote.Lines = new string[0];
-            this.txtEditNote.Location = new System.Drawing.Point(499, 298);
+            this.txtEditNote.Location = new System.Drawing.Point(748, 458);
+            this.txtEditNote.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditNote.MaxLength = 32767;
-            this.txtEditNote.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtEditNote.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtEditNote.Modified = false;
-            this.txtEditNote.Multiline = false;
+            this.txtEditNote.Multiline = true;
             this.txtEditNote.Name = "txtEditNote";
             stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
             stateProperties1.FillColor = System.Drawing.Color.Empty;
@@ -420,7 +426,7 @@
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtEditNote.OnIdleState = stateProperties4;
-            this.txtEditNote.Padding = new System.Windows.Forms.Padding(3);
+            this.txtEditNote.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditNote.PasswordChar = '\0';
             this.txtEditNote.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtEditNote.PlaceholderText = "Nhập ghi chú";
@@ -430,7 +436,7 @@
             this.txtEditNote.SelectionLength = 0;
             this.txtEditNote.SelectionStart = 0;
             this.txtEditNote.ShortcutsEnabled = true;
-            this.txtEditNote.Size = new System.Drawing.Size(295, 68);
+            this.txtEditNote.Size = new System.Drawing.Size(442, 105);
             this.txtEditNote.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtEditNote.TabIndex = 14;
             this.txtEditNote.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -468,9 +474,10 @@
             this.txtEditAccountPassword.IconRight = null;
             this.txtEditAccountPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEditAccountPassword.Lines = new string[0];
-            this.txtEditAccountPassword.Location = new System.Drawing.Point(499, 240);
+            this.txtEditAccountPassword.Location = new System.Drawing.Point(748, 369);
+            this.txtEditAccountPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditAccountPassword.MaxLength = 32767;
-            this.txtEditAccountPassword.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtEditAccountPassword.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtEditAccountPassword.Modified = false;
             this.txtEditAccountPassword.Multiline = false;
             this.txtEditAccountPassword.Name = "txtEditAccountPassword";
@@ -494,7 +501,7 @@
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtEditAccountPassword.OnIdleState = stateProperties8;
-            this.txtEditAccountPassword.Padding = new System.Windows.Forms.Padding(3);
+            this.txtEditAccountPassword.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditAccountPassword.PasswordChar = '\0';
             this.txtEditAccountPassword.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtEditAccountPassword.PlaceholderText = "Nhập mật khẩu";
@@ -504,7 +511,7 @@
             this.txtEditAccountPassword.SelectionLength = 0;
             this.txtEditAccountPassword.SelectionStart = 0;
             this.txtEditAccountPassword.ShortcutsEnabled = true;
-            this.txtEditAccountPassword.Size = new System.Drawing.Size(295, 37);
+            this.txtEditAccountPassword.Size = new System.Drawing.Size(442, 57);
             this.txtEditAccountPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtEditAccountPassword.TabIndex = 15;
             this.txtEditAccountPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -543,9 +550,10 @@
             this.txtEditAccount.IconRight = null;
             this.txtEditAccount.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEditAccount.Lines = new string[0];
-            this.txtEditAccount.Location = new System.Drawing.Point(499, 183);
+            this.txtEditAccount.Location = new System.Drawing.Point(748, 282);
+            this.txtEditAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditAccount.MaxLength = 32767;
-            this.txtEditAccount.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtEditAccount.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtEditAccount.Modified = false;
             this.txtEditAccount.Multiline = false;
             this.txtEditAccount.Name = "txtEditAccount";
@@ -569,7 +577,7 @@
             stateProperties12.ForeColor = System.Drawing.Color.Empty;
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtEditAccount.OnIdleState = stateProperties12;
-            this.txtEditAccount.Padding = new System.Windows.Forms.Padding(3);
+            this.txtEditAccount.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditAccount.PasswordChar = '\0';
             this.txtEditAccount.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtEditAccount.PlaceholderText = "Nhập tài khoản";
@@ -579,7 +587,7 @@
             this.txtEditAccount.SelectionLength = 0;
             this.txtEditAccount.SelectionStart = 0;
             this.txtEditAccount.ShortcutsEnabled = true;
-            this.txtEditAccount.Size = new System.Drawing.Size(295, 37);
+            this.txtEditAccount.Size = new System.Drawing.Size(442, 57);
             this.txtEditAccount.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtEditAccount.TabIndex = 16;
             this.txtEditAccount.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -617,9 +625,10 @@
             this.txtEditWebSite.IconRight = null;
             this.txtEditWebSite.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEditWebSite.Lines = new string[0];
-            this.txtEditWebSite.Location = new System.Drawing.Point(499, 127);
+            this.txtEditWebSite.Location = new System.Drawing.Point(748, 195);
+            this.txtEditWebSite.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditWebSite.MaxLength = 32767;
-            this.txtEditWebSite.MinimumSize = new System.Drawing.Size(1, 1);
+            this.txtEditWebSite.MinimumSize = new System.Drawing.Size(2, 2);
             this.txtEditWebSite.Modified = false;
             this.txtEditWebSite.Multiline = false;
             this.txtEditWebSite.Name = "txtEditWebSite";
@@ -643,7 +652,7 @@
             stateProperties16.ForeColor = System.Drawing.Color.Empty;
             stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtEditWebSite.OnIdleState = stateProperties16;
-            this.txtEditWebSite.Padding = new System.Windows.Forms.Padding(3);
+            this.txtEditWebSite.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEditWebSite.PasswordChar = '\0';
             this.txtEditWebSite.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtEditWebSite.PlaceholderText = "Nhập tên web";
@@ -653,7 +662,7 @@
             this.txtEditWebSite.SelectionLength = 0;
             this.txtEditWebSite.SelectionStart = 0;
             this.txtEditWebSite.ShortcutsEnabled = true;
-            this.txtEditWebSite.Size = new System.Drawing.Size(295, 37);
+            this.txtEditWebSite.Size = new System.Drawing.Size(442, 57);
             this.txtEditWebSite.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.txtEditWebSite.TabIndex = 13;
             this.txtEditWebSite.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -663,6 +672,7 @@
             this.txtEditWebSite.TextPlaceholder = "Nhập tên web";
             this.txtEditWebSite.UseSystemPasswordChar = false;
             this.txtEditWebSite.WordWrap = true;
+            this.txtEditWebSite.TextChanged += new System.EventHandler(this.txtEditWebSite_TextChanged);
             // 
             // bunifuGradientPanel1
             // 
@@ -682,10 +692,9 @@
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(173)))), ((int)(((byte)(164)))));
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(401, 492);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(602, 757);
             this.bunifuGradientPanel1.TabIndex = 11;
             // 
             // label6
@@ -693,9 +702,10 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(127, 448);
+            this.label6.Location = new System.Drawing.Point(190, 689);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(183, 17);
+            this.label6.Size = new System.Drawing.Size(289, 28);
             this.label6.TabIndex = 5;
             this.label6.Text = "Copyright by codezooteam";
             // 
@@ -703,9 +713,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(96, 445);
+            this.pictureBox2.Location = new System.Drawing.Point(144, 685);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 24);
+            this.pictureBox2.Size = new System.Drawing.Size(46, 37);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -714,9 +725,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(134, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(201, 74);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(131, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(196, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -725,9 +737,10 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(74, 226);
+            this.label2.Location = new System.Drawing.Point(111, 348);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(257, 185);
+            this.label2.Size = new System.Drawing.Size(386, 285);
             this.label2.TabIndex = 0;
             this.label2.Text = "Phần mềm quản lý mật khẩu";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -737,9 +750,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(128, 168);
+            this.label1.Location = new System.Drawing.Point(192, 258);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 34);
+            this.label1.Size = new System.Drawing.Size(212, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xin Chào";
             // 
@@ -749,9 +763,9 @@
             // 
             // frmEdit2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(891, 492);
+            this.ClientSize = new System.Drawing.Size(1336, 757);
             this.Controls.Add(this.bunifuSeparator1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnExit);
@@ -763,6 +777,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "frmEdit2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

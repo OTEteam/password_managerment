@@ -29,16 +29,6 @@ namespace Password_Manager
             return accept[0] & accept[1] & accept[2];
         }
 
-        private void txtNewPassword_TextChanged(object sender, EventArgs e)
-        {
-            txtNewPassword.UseSystemPasswordChar = true;
-        }
-
-        private void txtConfirmNewPassword_TextChanged(object sender, EventArgs e)
-        {
-            txtConfirmNewPassword.UseSystemPasswordChar = true;
-        }
-
         private void btnChangePassword_Click(object sender, EventArgs e)
         {
             if (isAccept())
@@ -101,9 +91,24 @@ namespace Password_Manager
             }
         }
 
-        private void txtOlderPsw_TextChange(object sender, EventArgs e)
+        private void txtOlderPsw_TextChanged(object sender, EventArgs e)
         {
-            txtOlderPsw.UseSystemPasswordChar = true;
+            txtOlderPsw.UseSystemPasswordChar = txtOlderPsw.Text.Length != 0;
+        }
+
+        private void txtNewPassword_TextChanged(object sender, EventArgs e)
+        {
+            txtNewPassword.UseSystemPasswordChar = txtNewPassword.Text.Length != 0;
+        }
+
+        private void txtConfirmNewPassword_TextChanged(object sender, EventArgs e)
+        {
+            txtConfirmNewPassword.UseSystemPasswordChar = txtConfirmNewPassword.Text.Length != 0;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

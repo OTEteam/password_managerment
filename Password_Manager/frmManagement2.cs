@@ -146,13 +146,28 @@ namespace Password_Manager
         {
             DataGridViewRow row = dgvPasswordManager.Rows[e.RowIndex];
             DataGridViewCheckBoxCell chk = (DataGridViewCheckBoxCell)row.Cells[3];
-            if (e.ColumnIndex == 3)
+            if (e.ColumnIndex == 2)
             {
                 System.Windows.Forms.Clipboard.SetText(row.Cells[6].Value.ToString());
+                MessageBox.Show("Đã được sao chép vào bộ nhớ đệm");
             }
-            else if (e.ColumnIndex == 1 | e.ColumnIndex == 2)
+            else if (e.ColumnIndex == 0 | e.ColumnIndex == 1)
             {
                 System.Windows.Forms.Clipboard.SetText(row.Cells[e.ColumnIndex].Value.ToString());
+                MessageBox.Show("Đã được sao chép vào bộ nhớ đệm");
+            }
+            if (e.ColumnIndex == 3 & e.RowIndex != -1)
+            {
+                if (Convert.ToBoolean(chk.EditedFormattedValue) == true)
+                {
+                    row.Cells[2].Value = row.Cells[6].Value.ToString();
+                }
+                else
+                {
+                    row.Cells[2].Value = "****************";
+                }
+                dgvPasswordManager.EndEdit();
+                dgvPasswordManager.CommitEdit(DataGridViewDataErrorContexts.Commit);
             }
         }
     }
